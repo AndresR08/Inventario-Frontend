@@ -1,12 +1,7 @@
 import axios from "axios";
 
-const baseURL =
-  import.meta.env.MODE === "development"
-    ? "http://3.142.130.175/api" 
-    : "/api"; // En producción, Netlify usará su proxy
-
 const api = axios.create({
-  baseURL,
+  baseURL: "http://3.142.130.175/api", // URL fija del backend en AWS
   headers: { "Content-Type": "application/json" },
 });
 
