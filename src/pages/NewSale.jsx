@@ -1,51 +1,69 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 const NewSale = () => {
-    const [product, setProduct] = useState("");
+    const [products, setProducts] = useState([]);
+    const [selectedProduct, setSelectedProduct] = useState("");
     const [quantity, setQuantity] = useState(1);
-    const [total, setTotal] = useState(0);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState("");
+    const [successMessage, setSuccessMessage] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
+
+    useEffect(() => {
+        // Obtener productos de la base de datos
+        const fetchProducts = async () => {
+            try {
+                const response = await axios.get("http://3.142.130.175:5000/api/products", {
+                    headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
+                });
+                setProducts(response.data);
+            } catch (error) {
+                console.error("Error al obtener los productos", error);
+            }
+        };
+        fetchProducts();
+    }, []);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setLoading(true);
-        setError("");
         try {
-            const res = await axios.post("http://3.142.130.175:5000/api/sales", {
-                product,
+            const saleData = {
+                product: selectedProduct,
                 quantity,
-                total
-            }, {
-                headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
+            };
+            const response = await axios.post("http://3.142.130.175:5000/api/sales", saleData, {
+                headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
             });
-            alert("Venta realizada con éxito!");
-            setProduct("");
-            setQuantity(1);
-            setTotal(0);
-        } catch (err) {
-            setError("Error al realizar la venta");
-        } finally {
-            setLoading(false);
+            setSuccessMessage("Venta registrada con éxito.");
+            setErrorMessage("");
+        } catch (error) {
+            setErrorMessage("Error al registrar la venta.");
+            setSuccessMessage("");
         }
     };
 
     return (
-        <div className="new-sale-container">
-            <h2>Realizar Nueva Venta</h2>
+        <div>
+            <h2>Registrar Nueva Venta</h2>
+            {successMessage && <div className="success-message">{successMessage}</div>}
+            {errorMessage && <div className="error-message">{errorMessage}</div>}
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Producto:</label>
-                    <input
-                        type="text"
-                        value={product}
-                        onChange={(e) => setProduct(e.target.value)}
+                    <label>Producto</label>
+                    <select
+                        value={selectedProduct}
+                        onChange={(e) => setSelectedProduct(e.target.value)}
                         required
-                    />
+                    >
+                        <option value="">Selecciona un producto</option>
+                        {products.map((product) => (
+                            <option key={product._id} value={product._id}>
+                                {product.name} - ${product.price}
+                            </option>
+                        ))}
+                    </select>
                 </div>
                 <div>
-                    <label>Cantidad:</label>
+                    <label>Cantidad</label>
                     <input
                         type="number"
                         value={quantity}
@@ -54,20 +72,7 @@ const NewSale = () => {
                         required
                     />
                 </div>
-                <div>
-                    <label>Total:</label>
-                    <input
-                        type="number"
-                        value={total}
-                        onChange={(e) => setTotal(e.target.value)}
-                        min="0"
-                        required
-                    />
-                </div>
-                {error && <p className="error">{error}</p>}
-                <button type="submit" disabled={loading}>
-                    {loading ? "Cargando..." : "Registrar Venta"}
-                </button>
+                <button type="submit">Registrar Venta</button>
             </form>
         </div>
     );
