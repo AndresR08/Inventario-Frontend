@@ -156,6 +156,23 @@
   transform: translateY(-5px);
 }
 
+/* Botón de registrar venta */
+.register-sale-btn {
+  background: #27ae60;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.register-sale-btn:hover {
+  background: #2ecc71;
+}
+
 /* Estilos para la accesibilidad en dispositivos pequeños */
 @media (max-width: 768px) {
   .dashboard-container {
