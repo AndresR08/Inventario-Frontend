@@ -6,37 +6,46 @@ const categories = ["Electrónica", "Ropa", "Hogar", "Alimentos", "Servicios", "
 
 const Products = () => {
     const [products, setProducts] = useState([]);
+    const [sales, setSales] = useState([]);
     const [newProduct, setNewProduct] = useState({ 
         name: "", 
         price: "", 
         stock: "", 
-        category: categories[0] 
+        category: categories[0]
     });
     const [editingProduct, setEditingProduct] = useState(null);
 
+    const fetchProducts = () => {
+        api.get("/products").then(res => setProducts(res.data));
+    };
+
+    const fetchSales = () => {
+        api.get("/sales").then(res => setSales(res.data));
+    };
+
     useEffect(() => {
-        api.get("/products").then(res => setProducts(res.data || [])).catch(err => console.error("Error fetching products:", err));
+        fetchProducts();
+        fetchSales();
     }, []);
 
     const handleDelete = (id) => {
         api.delete(`/products/${id}`).then(() => {
-            setProducts(prevProducts => prevProducts.filter(product => product._id !== id));
-        }).catch(err => console.error("Error deleting product:", err));
+            fetchProducts();
+        });
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Producto a enviar:", newProduct); 
 
         if (editingProduct) {
-            api.put(`/products/${editingProduct._id}`, newProduct).then(res => {
-                setProducts(prevProducts => prevProducts.map(p => (p._id === editingProduct._id ? res.data.product : p)));
+            api.put(`/products/${editingProduct._id}`, newProduct).then(() => {
                 setEditingProduct(null);
-            }).catch(err => console.error("Error updating product:", err));
+                fetchProducts();
+            });
         } else {
-            api.post("/products", newProduct).then(res => {
-                setProducts(prevProducts => [...prevProducts, res.data.product]);
-            }).catch(err => console.error("Error adding product:", err));
+            api.post("/products", newProduct).then(() => {
+                fetchProducts();
+            });
         }
 
         setNewProduct({ name: "", price: "", stock: "", category: categories[0] });
@@ -44,10 +53,10 @@ const Products = () => {
 
     const handleEdit = (product) => {
         setNewProduct({
-            name: product?.name || "",
-            price: product?.price || "",
-            stock: product?.stock || "",
-            category: product?.category || categories[0]
+            name: product.name || "",
+            price: product.price || "",
+            stock: product.stock || "",
+            category: product.category || categories[0]
         });
         setEditingProduct(product);
     };
@@ -55,6 +64,7 @@ const Products = () => {
     return (
         <div className="container">
             <h1>Lista de Productos</h1>
+            <button onClick={fetchProducts} className="refresh-btn">Refrescar</button>
             <form onSubmit={handleSubmit} className="product-form">
                 <input 
                     type="text" 
@@ -86,22 +96,28 @@ const Products = () => {
                         <option key={index} value={cat}>{cat}</option>
                     ))}
                 </select>
-
                 <button type="submit">{editingProduct ? "Actualizar" : "Agregar"}</button>
             </form>
 
             <ul className="product-list">
-                {products.length > 0 ? products.map(product => (
-                    product && product._id ? (
-                        <li key={product._id} className="product-item">
-                            <span>{product.name} - ${product.price} - Stock: {product.stock} - Categoría: {product.category}</span>
-                            <div>
-                                <button onClick={() => handleEdit(product)} className="edit-btn">Editar</button>
-                                <button onClick={() => handleDelete(product._id)} className="delete-btn">Eliminar</button>
-                            </div>
-                        </li>
-                    ) : null
-                )) : <p>No hay productos disponibles.</p>}
+                {products.map(product => (
+                    <li key={product._id} className="product-item">
+                        <span>{product.name} - ${product.price} - Stock: {product.stock} - Categoría: {product.category}</span>
+                        <div>
+                            <button onClick={() => handleEdit(product)} className="edit-btn">Editar</button>
+                            <button onClick={() => handleDelete(product._id)} className="delete-btn">Eliminar</button>
+                        </div>
+                    </li>
+                ))}
+            </ul>
+
+            <h2>Ventas Realizadas</h2>
+            <ul className="sales-list">
+                {sales.map(sale => (
+                    <li key={sale._id} className="sale-item">
+                        <span>{sale.productName} - Cantidad: {sale.quantity} - Total: ${sale.totalPrice}</span>
+                    </li>
+                ))}
             </ul>
         </div>
     );
