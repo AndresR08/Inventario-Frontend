@@ -5,6 +5,7 @@ import Products from "./pages/Products";
 import Sales from "./pages/Sales";
 import Users from "./pages/Users"; 
 import Reports from "./pages/Reports"; 
+import NewSale from "./pages/NewSale";  // Importamos el componente de Nueva Venta
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
       <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
       <Route path="/products" element={<PrivateRoute><Products /></PrivateRoute>} />
       <Route path="/sales" element={<PrivateRoute><Sales /></PrivateRoute>} />
-      <Route path="/users" element={<PrivateRoute><Users /></PrivateRoute>} />  {/* 🔹 Agregadas */}
-      <Route path="/reports" element={<PrivateRoute><Reports /></PrivateRoute>} />  {/* 🔹 Agregadas */}
+      <Route path="/users" element={<PrivateRoute><Users /></PrivateRoute>} />
+      <Route path="/reports" element={<PrivateRoute><Reports /></PrivateRoute>} />
+      <Route path="/new-sale" element={<PrivateRoute><NewSale /></PrivateRoute>} />  {/* Ruta para Nueva Venta */}
     </Routes>
   );
 }

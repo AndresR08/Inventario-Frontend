@@ -46,6 +46,7 @@ const Dashboard = () => {
                         )}
                         <li><NavLink to="/reports" className={({ isActive }) => isActive ? "active" : ""}>📊 Reportes</NavLink></li>
                         <li><NavLink to="/sales" className={({ isActive }) => isActive ? "active" : ""}>💸 Ventas Realizadas</NavLink></li>
+                        <li><NavLink to="/new-sale" className={({ isActive }) => isActive ? "active" : ""}>💳 Nueva Venta</NavLink></li>
                     </ul>
                 </nav>
                 <button className="logout-btn" onClick={handleLogout}>Cerrar sesión</button>
