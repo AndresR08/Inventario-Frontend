@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import { NavLink, useNavigate, Outlet } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
-import axios from "axios";
+import api from "../axiosInstance"; // Usando la instancia de axios configurada
 import "./Dashboard.css";
 import DashboardHome from "./DashboardHome";
 
@@ -10,6 +10,7 @@ const Dashboard = () => {
     const navigate = useNavigate();
     const [stats, setStats] = useState({ totalSales: 0, totalIncome: 0, totalProductsSold: 0 });
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null); // Estado para manejar errores
 
     const handleLogout = () => {
         logout();
@@ -19,12 +20,11 @@ const Dashboard = () => {
     useEffect(() => {
         const fetchStats = async () => {
             try {
-                const res = await axios.get("http://3.142.130.175:5000/api/sales/stats", {
-                    headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
-                });
+                const res = await api.get("/sales/stats"); // Usamos la instancia configurada
                 setStats(res.data);
             } catch (error) {
                 console.error("Error al obtener estadísticas", error);
+                setError("Error al cargar las estadísticas. Inténtalo más tarde.");
             } finally {
                 setLoading(false);
             }
@@ -62,9 +62,17 @@ const Dashboard = () => {
 
                 {/* Estadísticas reales */}
                 <section className="dashboard-stats">
-                    <div>Total Ventas: {loading ? "Cargando..." : stats.totalSales}</div>
-                    <div>Total Ingresos: ${loading ? "Cargando..." : stats.totalIncome}</div>
-                    <div>Total Productos Vendidos: {loading ? "Cargando..." : stats.totalProductsSold}</div>
+                    {loading ? (
+                        <div>Cargando...</div>
+                    ) : error ? (
+                        <div>{error}</div>
+                    ) : (
+                        <>
+                            <div>Total Ventas: {stats.totalSales}</div>
+                            <div>Total Ingresos: ${stats.totalIncome}</div>
+                            <div>Total Productos Vendidos: {stats.totalProductsSold}</div>
+                        </>
+                    )}
                 </section>
 
                 {/* Tarjetas de resumen */}
