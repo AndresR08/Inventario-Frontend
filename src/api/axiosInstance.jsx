@@ -1,13 +1,13 @@
 import axios from "axios";
 
-const API_URL = "https://3.142.130.175:5000";
+const apiBaseUrl = "http://3.142.130.175:5000"; // Usa HTTP por ahora
 
 const api = axios.create({
-  baseURL: API_URL,
-  headers: {
-    "Content-Type": "application/json",
-  },
+  baseURL: apiBaseUrl,
+  headers: { "Content-Type": "application/json" },
 });
+
+
 
 const token = localStorage.getItem("token");
 console.log("Token en localStorage:", token);
