@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from "react"; 
+import { useState, useEffect, useContext } from "react";
 import { NavLink, useNavigate, Outlet } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import axios from "axios";
@@ -40,6 +40,7 @@ const Dashboard = () => {
                 <nav>
                     <ul>
                         <li><NavLink to="/dashboard" className={({ isActive }) => isActive ? "active" : ""}>🏠 Inicio</NavLink></li>
+                        <li><NavLink to="/products" className={({ isActive }) => isActive ? "active" : ""}>📦 Productos</NavLink></li>
                         {user?.role === "admin" && (
                             <li><NavLink to="/users" className={({ isActive }) => isActive ? "active" : ""}>👥 Usuarios</NavLink></li>
                         )}
@@ -63,7 +64,7 @@ const Dashboard = () => {
                 <section className="dashboard-stats">
                     <div>Total Ventas: {loading ? "Cargando..." : stats.totalSales}</div>
                     <div>Total Ingresos: ${loading ? "Cargando..." : stats.totalIncome}</div>
-                    <div>Total Productos Vendidos: {loading ? "Cargando..." : stats.totalProductsSold.length}</div>
+                    <div>Total Productos Vendidos: {loading ? "Cargando..." : stats.totalProductsSold}</div>
                 </section>
 
                 {/* Tarjetas de resumen */}
