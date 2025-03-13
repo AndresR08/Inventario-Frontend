@@ -13,6 +13,10 @@ const Dashboard = () => {
         navigate("/");
     };
 
+    const handleViewSales = () => {
+        navigate("/sales"); // Ruta para ver las ventas realizadas
+    };
+
     return (
         <div className="dashboard-container">
             {/* Sidebar */}
@@ -42,8 +46,11 @@ const Dashboard = () => {
                 {/* Tarjetas de resumen */}
                 <DashboardHome />
 
-                {/* Contenido dinámico */}
+                {/* Botón para ver las ventas */}
                 <section className="dashboard-content">
+                    <button className="view-sales-btn" onClick={handleViewSales}>
+                        🛒 Ver Ventas Realizadas
+                    </button>
                     <Outlet />
                 </section>
             </main>
