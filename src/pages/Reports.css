@@ -1,0 +1,102 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.report-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.report-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.report-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  text-align: center;
+}
+
+.report-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.report-card p {
+  font-size: 20px;
+  margin: 10px 0 0;
+}
+
+.sales-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sales-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.sales-item span {
+  font-size: 16px;
+}
+
+.view-details-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-details-btn:hover {
+  background-color: #218838;
+}
+
+.sales-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.view-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}

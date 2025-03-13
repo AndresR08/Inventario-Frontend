@@ -5,7 +5,7 @@ import Products from "./pages/Products";
 import Sales from "./pages/Sales";
 import Users from "./pages/Users"; 
 import Reports from "./pages/Reports"; 
-import NewSale from "./pages/NewSale";  // Importamos el componente de Nueva Venta
+import NewSale from "./pages/NewSale";  // Importa el componente de Nueva Venta
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
