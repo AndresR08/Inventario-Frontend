@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://3.142.130.175;5000/api", // URL fija del backend en AWS
+  baseURL: "http://3.142.130.175:5000/api", // URL fija del backend en AWS
   headers: { "Content-Type": "application/json" },
 });
 
