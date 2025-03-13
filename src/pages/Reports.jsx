@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
+import { API_URL } from "../config"; // Importamos la configuración
 
 const Reports = () => {
     const [sales, setSales] = useState([]);
@@ -8,7 +8,7 @@ const Reports = () => {
     // Obtener las ventas desde el backend
     const fetchSales = async () => {
         try {
-            const res = await axios.get("http://3.142.130.175:5000/api/sales", {
+            const res = await axios.get(`${API_URL}/sales`, {
                 headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
             });
             setSales(res.data);

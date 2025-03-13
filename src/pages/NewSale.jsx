@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
+import { API_URL } from "../config"; // Importamos la configuración
 
 const NewSale = () => {
     const [products, setProducts] = useState([]);
@@ -12,7 +12,7 @@ const NewSale = () => {
         // Obtener productos de la base de datos
         const fetchProducts = async () => {
             try {
-                const response = await axios.get("http://3.142.130.175:5000/api/products", {
+                const response = await axios.get(`${API_URL}/products`, {
                     headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
                 });
                 setProducts(response.data);
@@ -30,7 +30,7 @@ const NewSale = () => {
                 product: selectedProduct,
                 quantity,
             };
-            const response = await axios.post("http://3.142.130.175:5000/api/sales", saleData, {
+            const response = await axios.post(`${API_URL}/sales`, saleData, {
                 headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
             });
             setSuccessMessage("Venta registrada con éxito.");
