@@ -18,10 +18,12 @@ const Dashboard = () => {
   };
 
   const fetchStats = async () => {
+    setLoading(true);
     try {
       const res = await axios.get(`${API_URL}/sales/stats`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
+      console.log("Estadísticas obtenidas:", res.data);  // Debug: muestra en consola la respuesta
       setStats(res.data);
     } catch (error) {
       console.error("Error al obtener estadísticas", error);
@@ -94,7 +96,7 @@ const Dashboard = () => {
           </div>
         </header>
 
-        {/* Estadísticas reales obtenidas del backend */}
+        {/* Estadísticas obtenidas desde el backend */}
         <section className="dashboard-stats">
           <div>Total Ventas: {loading ? "Cargando..." : stats.totalSales}</div>
           <div>Total Ingresos: ${loading ? "Cargando..." : stats.totalIncome}</div>
@@ -102,7 +104,7 @@ const Dashboard = () => {
           <button onClick={fetchStats}>Actualizar Estadísticas</button>
         </section>
 
-        {/* Resumen en DashboardHome con datos reales */}
+        {/* Resumen de datos (DashboardHome) */}
         <DashboardHome />
 
         {/* Contenido dinámico */}

@@ -15,13 +15,13 @@ const DashboardHome = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Obtener productos y contar
+        // Obtener productos
         const prodRes = await axios.get(`${API_URL}/products`, {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
         const totalProducts = prodRes.data.length;
 
-        // Obtener usuarios y contar
+        // Obtener usuarios
         const userRes = await axios.get(`${API_URL}/users`, {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
@@ -40,7 +40,7 @@ const DashboardHome = () => {
           totalSalesCount: totalSales,
         });
       } catch (error) {
-        console.error("Error al obtener datos del dashboard:", error);
+        console.error("Error al obtener datos del DashboardHome:", error);
       } finally {
         setLoading(false);
       }
