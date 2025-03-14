@@ -9,7 +9,11 @@ import DashboardHome from "./DashboardHome";
 const Dashboard = () => {
   const { logout, user } = useContext(AuthContext);
   const navigate = useNavigate();
-  const [stats, setStats] = useState({ totalSales: 0, totalIncome: 0, totalProductsSold: 0 });
+  const [stats, setStats] = useState({
+    totalSales: 0,
+    totalIncome: 0,
+    totalProductsSold: 0,
+  });
   const [loading, setLoading] = useState(true);
 
   const handleLogout = () => {
@@ -23,7 +27,7 @@ const Dashboard = () => {
       const res = await axios.get(`${API_URL}/sales/stats`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
-      console.log("Estadísticas obtenidas:", res.data);  // Debug: muestra en consola la respuesta
+      console.log("Estadísticas obtenidas:", res.data);
       setStats(res.data);
     } catch (error) {
       console.error("Error al obtener estadísticas", error);
@@ -34,7 +38,8 @@ const Dashboard = () => {
 
   useEffect(() => {
     fetchStats();
-    const intervalId = setInterval(fetchStats, 60000); // Actualiza cada 60 segundos
+    // Actualización automática cada 60 segundos
+    const intervalId = setInterval(fetchStats, 60000);
     return () => clearInterval(intervalId);
   }, []);
 
@@ -96,7 +101,7 @@ const Dashboard = () => {
           </div>
         </header>
 
-        {/* Estadísticas obtenidas desde el backend */}
+        {/* Sección de estadísticas obtenidas del backend */}
         <section className="dashboard-stats">
           <div>Total Ventas: {loading ? "Cargando..." : stats.totalSales}</div>
           <div>Total Ingresos: ${loading ? "Cargando..." : stats.totalIncome}</div>

@@ -15,13 +15,13 @@ const DashboardHome = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Obtener productos
+        // Obtener productos y contar
         const prodRes = await axios.get(`${API_URL}/products`, {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
         const totalProducts = prodRes.data.length;
 
-        // Obtener usuarios
+        // Obtener usuarios y contar
         const userRes = await axios.get(`${API_URL}/users`, {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
