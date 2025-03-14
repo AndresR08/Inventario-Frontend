@@ -17,21 +17,23 @@ const Dashboard = () => {
     navigate("/");
   };
 
-  useEffect(() => {
-    const fetchStats = async () => {
-      try {
-        const res = await axios.get(`${API_URL}/sales/stats`, {
-          headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
-        });
-        setStats(res.data);
-      } catch (error) {
-        console.error("Error al obtener estadísticas", error);
-      } finally {
-        setLoading(false);
-      }
-    };
+  const fetchStats = async () => {
+    try {
+      const res = await axios.get(`${API_URL}/sales/stats`, {
+        headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+      });
+      setStats(res.data);
+    } catch (error) {
+      console.error("Error al obtener estadísticas", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
+  useEffect(() => {
     fetchStats();
+    const intervalId = setInterval(fetchStats, 60000); // Actualiza cada 60 segundos
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
@@ -41,36 +43,36 @@ const Dashboard = () => {
         <nav>
           <ul>
             <li>
-              <NavLink to="/dashboard" className={({ isActive }) => isActive ? "active" : ""}>
+              <NavLink to="/dashboard" className={({ isActive }) => (isActive ? "active" : "")}>
                 🏠 Inicio
               </NavLink>
             </li>
             <li>
-              <NavLink to="/products" className={({ isActive }) => isActive ? "active" : ""}>
+              <NavLink to="/products" className={({ isActive }) => (isActive ? "active" : "")}>
                 📦 Productos
               </NavLink>
             </li>
             {user?.role === "admin" && (
               <>
                 <li>
-                  <NavLink to="/users" className={({ isActive }) => isActive ? "active" : ""}>
+                  <NavLink to="/users" className={({ isActive }) => (isActive ? "active" : "")}>
                     👥 Usuarios
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/new-sale" className={({ isActive }) => isActive ? "active" : ""}>
+                  <NavLink to="/new-sale" className={({ isActive }) => (isActive ? "active" : "")}>
                     💳 Nueva Venta
                   </NavLink>
                 </li>
               </>
             )}
             <li>
-              <NavLink to="/reports" className={({ isActive }) => isActive ? "active" : ""}>
+              <NavLink to="/reports" className={({ isActive }) => (isActive ? "active" : "")}>
                 📊 Reportes
               </NavLink>
             </li>
             <li>
-              <NavLink to="/sales" className={({ isActive }) => isActive ? "active" : ""}>
+              <NavLink to="/sales" className={({ isActive }) => (isActive ? "active" : "")}>
                 💸 Ventas Realizadas
               </NavLink>
             </li>
@@ -92,14 +94,15 @@ const Dashboard = () => {
           </div>
         </header>
 
-        {/* Estadísticas obtenidas desde el backend */}
+        {/* Estadísticas reales obtenidas del backend */}
         <section className="dashboard-stats">
           <div>Total Ventas: {loading ? "Cargando..." : stats.totalSales}</div>
           <div>Total Ingresos: ${loading ? "Cargando..." : stats.totalIncome}</div>
           <div>Total Productos Vendidos: {loading ? "Cargando..." : stats.totalProductsSold}</div>
+          <button onClick={fetchStats}>Actualizar Estadísticas</button>
         </section>
 
-        {/* Sección para mostrar el resumen real (DashboardHome) */}
+        {/* Resumen en DashboardHome con datos reales */}
         <DashboardHome />
 
         {/* Contenido dinámico */}
