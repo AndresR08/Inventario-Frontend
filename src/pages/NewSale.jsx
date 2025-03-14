@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { API_URL } from "../config"; // Importamos la configuración
+import { API_URL } from "../config"; // Importamos la URL base desde config
 
 const NewSale = () => {
   const [products, setProducts] = useState([]);
@@ -27,8 +27,9 @@ const NewSale = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      // Enviar 'productId' en lugar de 'product'
       const saleData = {
-        product: selectedProduct,
+        productId: selectedProduct,
         quantity,
       };
       const response = await axios.post(`${API_URL}/sales`, saleData, {
@@ -36,7 +37,7 @@ const NewSale = () => {
       });
       setSuccessMessage("Venta registrada con éxito.");
       setErrorMessage("");
-      // Opcional: Limpiar campos después de registrar la venta
+      // Limpiar campos después de registrar la venta
       setSelectedProduct("");
       setQuantity(1);
     } catch (error) {
