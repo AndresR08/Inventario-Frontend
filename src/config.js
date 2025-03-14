@@ -1,2 +1,2 @@
-export const API_URL = "http://192.168.161.20:5000/api"; // URL base para el backend en AWS
-export const FRONTEND_URL = "http://localhost:3000"; // URL del frontend para pruebas locales
+export const API_URL = "http://18.227.102.242:5000/api";
+export const FRONTEND_URL = "http://localhost:3000"; // o la URL de producción si estuviera desplegado
