@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
-import { API_URL } from "../config"; // Importamos la URL base desde config
+import api from "../api/axiosInstance";
+import { API_URL } from "../config";
 
 const NewSale = () => {
   const [products, setProducts] = useState([]);
@@ -8,14 +8,19 @@ const NewSale = () => {
   const [quantity, setQuantity] = useState(1);
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
+    // Cargar usuario desde localStorage
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+    }
+
     // Obtener productos de la base de datos
     const fetchProducts = async () => {
       try {
-        const response = await axios.get(`${API_URL}/products`, {
-          headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
-        });
+        const response = await api.get("/products");
         setProducts(response.data);
       } catch (error) {
         console.error("Error al obtener los productos", error);
@@ -27,16 +32,16 @@ const NewSale = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Enviar 'productId' en lugar de 'product'
       const saleData = {
         productId: selectedProduct,
-        quantity,
+        quantity: parseInt(quantity, 10), // Asegurar que quantity sea número
+        userId: user?.id, // Enviar ID del usuario si es necesario
       };
-      const response = await axios.post(`${API_URL}/sales`, saleData, {
-        headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
-      });
+
+      const response = await api.post("/sales", saleData);
       setSuccessMessage("Venta registrada con éxito.");
       setErrorMessage("");
+      
       // Limpiar campos después de registrar la venta
       setSelectedProduct("");
       setQuantity(1);
@@ -73,7 +78,7 @@ const NewSale = () => {
           <input
             type="number"
             value={quantity}
-            onChange={(e) => setQuantity(e.target.value)}
+            onChange={(e) => setQuantity(parseInt(e.target.value, 10))}
             min="1"
             required
           />

@@ -1,124 +1,118 @@
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect } from "react";
 import { NavLink, useNavigate, Outlet } from "react-router-dom";
-import { AuthContext } from "../context/AuthContext";
-import axios from "axios";
+import api from "../api/axiosInstance";
 import { API_URL } from "../config";
 import "./Dashboard.css";
 import DashboardHome from "./DashboardHome";
 
 const Dashboard = () => {
-  const { logout, user } = useContext(AuthContext);
-  const navigate = useNavigate();
-  const [stats, setStats] = useState({
-    totalSales: 0,
-    totalIncome: 0,
-    totalProductsSold: 0,
-  });
-  const [loading, setLoading] = useState(true);
+    const navigate = useNavigate();
+    const [user, setUser] = useState(null);
+    const [stats, setStats] = useState({
+        totalSales: 0,
+        totalIncome: 0,
+        totalProductsSold: 0,
+    });
+    const [loading, setLoading] = useState(true);
 
-  const handleLogout = () => {
-    logout();
-    navigate("/");
-  };
+    // Cargar usuario desde localStorage al montar el componente
+    useEffect(() => {
+        const storedUser = localStorage.getItem("user");
+        if (storedUser) {
+            setUser(JSON.parse(storedUser));
+        } else {
+            navigate("/"); // Redirigir si no hay usuario
+        }
+    }, [navigate]);
 
-  const fetchStats = async () => {
-    setLoading(true);
-    try {
-      const res = await axios.get(`${API_URL}/sales/stats`, {
-        headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
-      });
-      console.log("Estadísticas obtenidas:", res.data);
-      setStats(res.data);
-    } catch (error) {
-      console.error("Error al obtener estadísticas", error);
-    } finally {
-      setLoading(false);
-    }
-  };
+    const handleLogout = () => {
+        localStorage.removeItem("token");
+        localStorage.removeItem("user");
+        navigate("/");
+    };
 
-  useEffect(() => {
-    fetchStats();
-    // Actualización automática cada 60 segundos
-    const intervalId = setInterval(fetchStats, 60000);
-    return () => clearInterval(intervalId);
-  }, []);
+    const fetchStats = async () => {
+        setLoading(true);
+        try {
+            const res = await api.get(`${API_URL}/sales/stats`, {
+                headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+            });
+            console.log("Estadísticas obtenidas:", res.data);
+            setStats(res.data);
+        } catch (error) {
+            console.error("Error al obtener estadísticas", error);
+        } finally {
+            setLoading(false);
+        }
+    };
 
-  return (
-    <div className="dashboard-container">
-      <aside className="sidebar">
-        <h2>📊 Mi Panel</h2>
-        <nav>
-          <ul>
-            <li>
-              <NavLink to="/dashboard" className={({ isActive }) => (isActive ? "active" : "")}>
-                🏠 Inicio
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/products" className={({ isActive }) => (isActive ? "active" : "")}>
-                📦 Productos
-              </NavLink>
-            </li>
-            {user?.role === "admin" && (
-              <>
-                <li>
-                  <NavLink to="/users" className={({ isActive }) => (isActive ? "active" : "")}>
-                    👥 Usuarios
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/new-sale" className={({ isActive }) => (isActive ? "active" : "")}>
-                    💳 Nueva Venta
-                  </NavLink>
-                </li>
-              </>
-            )}
-            <li>
-              <NavLink to="/reports" className={({ isActive }) => (isActive ? "active" : "")}>
-                📊 Reportes
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/sales" className={({ isActive }) => (isActive ? "active" : "")}>
-                💸 Ventas Realizadas
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
-        <button className="logout-btn" onClick={handleLogout}>
-          Cerrar sesión
-        </button>
-      </aside>
+    useEffect(() => {
+        fetchStats();
+        const intervalId = setInterval(fetchStats, 60000);
+        return () => clearInterval(intervalId);
+    }, []);
 
-      <main className="content">
-        <header className="dashboard-header">
-          <h1>Bienvenido al Dashboard</h1>
-          <div className="user-info">
-            <span>👤 {user?.name}</span>
-            <button className="logout-btn" onClick={handleLogout}>
-              Cerrar sesión
-            </button>
-          </div>
-        </header>
+    return (
+        <div className="dashboard-container">
+            <aside className="sidebar">
+                <h2>📊 Mi Panel</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            <NavLink to="/dashboard">🏠 Inicio</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/products">📦 Productos</NavLink>
+                        </li>
+                        {user?.role === "admin" && (
+                            <>
+                                <li>
+                                    <NavLink to="/users">👥 Usuarios</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to="/new-sale">💳 Nueva Venta</NavLink>
+                                </li>
+                            </>
+                        )}
+                        <li>
+                            <NavLink to="/reports">📊 Reportes</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/sales">💸 Ventas Realizadas</NavLink>
+                        </li>
+                    </ul>
+                </nav>
+                <button className="logout-btn" onClick={handleLogout}>
+                    Cerrar sesión
+                </button>
+            </aside>
 
-        {/* Sección de estadísticas obtenidas del backend */}
-        <section className="dashboard-stats">
-          <div>Total Ventas: {loading ? "Cargando..." : stats.totalSales}</div>
-          <div>Total Ingresos: ${loading ? "Cargando..." : stats.totalIncome}</div>
-          <div>Total Productos Vendidos: {loading ? "Cargando..." : stats.totalProductsSold}</div>
-          <button onClick={fetchStats}>Actualizar Estadísticas</button>
-        </section>
+            <main className="content">
+                <header className="dashboard-header">
+                    <h1>Bienvenido al Dashboard</h1>
+                    <div className="user-info">
+                        <span>👤 {user?.name}</span>
+                        <button className="logout-btn" onClick={handleLogout}>
+                            Cerrar sesión
+                        </button>
+                    </div>
+                </header>
 
-        {/* Resumen de datos (DashboardHome) */}
-        <DashboardHome />
+                <section className="dashboard-stats">
+                    <div>Total Ventas: {loading ? "Cargando..." : stats.totalSales}</div>
+                    <div>Total Ingresos: ${loading ? "Cargando..." : stats.totalIncome}</div>
+                    <div>Total Productos Vendidos: {loading ? "Cargando..." : stats.totalProductsSold}</div>
+                    <button onClick={fetchStats}>Actualizar Estadísticas</button>
+                </section>
 
-        {/* Contenido dinámico */}
-        <section className="dashboard-content">
-          <Outlet />
-        </section>
-      </main>
-    </div>
-  );
+                <DashboardHome />
+
+                <section className="dashboard-content">
+                    <Outlet />
+                </section>
+            </main>
+        </div>
+    );
 };
 
 export default Dashboard;

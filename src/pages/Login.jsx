@@ -1,18 +1,19 @@
-import { useState, useContext } from "react";
-import { AuthContext } from "../context/AuthContext";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Login.css"; // Importamos los estilos
+import api from "../api/axiosInstance";
+import "./Login.css";
 
 const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const { login } = useContext(AuthContext);
     const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await login(email, password);
+            const res = await api.post("/auth/login", { email, password });
+            localStorage.setItem("token", res.data.token);
+            localStorage.setItem("user", JSON.stringify(res.data.user)); // Guardar usuario
             navigate("/dashboard");
         } catch (err) {
             alert("Credenciales incorrectas");
