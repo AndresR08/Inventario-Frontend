@@ -8,7 +8,7 @@ const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
-    const [eyePosition, setEyePosition] = useState({ left: "0px", right: "0px" });
+    const [eyePosition, setEyePosition] = useState({ x: "0px", y: "0px" });
     const [coverEyes, setCoverEyes] = useState(false);
     const navigate = useNavigate();
 
@@ -25,25 +25,30 @@ const Login = () => {
     };
 
     const handleFocus = (field) => {
-        if (field === "password") {
-            setCoverEyes(true);
-        } else {
+        if (field === "email") {
+            setEyePosition({ x: "-10px", y: "-5px" });
             setCoverEyes(false);
+        } else if (field === "password") {
+            setEyePosition({ x: "10px", y: "5px" });
+            setCoverEyes(true);
         }
     };
 
     const handleTogglePassword = () => {
         setShowPassword(!showPassword);
-        setCoverEyes(showPassword);
+        setCoverEyes(!showPassword);
     };
 
     return (
         <div className="login-container">
+            {/* 🟢 Personaje con Ojos */}
             <div className="character">
-                <div className="eye left" style={{ transform: `translateX(${eyePosition.left})` }}></div>
-                <div className="eye right" style={{ transform: `translateX(${eyePosition.right})` }}></div>
+                <div className="eye left" style={{ transform: `translate(${eyePosition.x}, ${eyePosition.y})` }}></div>
+                <div className="eye right" style={{ transform: `translate(${eyePosition.x}, ${eyePosition.y})` }}></div>
                 {coverEyes && <div className="cover-eyes"></div>}
             </div>
+
+            {/* 🟢 Formulario */}
             <div className="login-box">
                 <h2>Iniciar Sesión</h2>
                 <form onSubmit={handleSubmit}>

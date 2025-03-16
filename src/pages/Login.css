@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* 🔹 Contenedor principal */
 .login-container {
   display: flex;
   justify-content: center;
@@ -9,6 +9,7 @@
   position: relative;
 }
 
+/* 🔹 Caja de Login */
 .login-box {
   background: white;
   padding: 2rem;
@@ -20,12 +21,13 @@
   z-index: 2;
 }
 
+/* 🔹 Texto */
 h2 {
   color: #333;
   margin-bottom: 1rem;
 }
 
-/* Campos de entrada */
+/* 🔹 Inputs */
 .input-group {
   position: relative;
   width: 100%;
@@ -40,7 +42,7 @@ input {
   font-size: 16px;
 }
 
-/* Icono de ver contraseña */
+/* 🔹 Icono de ver contraseña */
 .toggle-password {
   position: absolute;
   right: 10px;
@@ -49,7 +51,7 @@ input {
   cursor: pointer;
 }
 
-/* Botón */
+/* 🔹 Botón */
 button {
   width: 100%;
   padding: 10px;
@@ -66,24 +68,25 @@ button:hover {
   background: #5a7bf7;
 }
 
-/* Personaje animado */
+/* 🔹 Personaje animado */
 .character {
   position: absolute;
-  top: 50px;
-  width: 100px;
-  height: 100px;
+  top: 30px;
+  width: 120px;
+  height: 120px;
   transition: transform 0.3s ease-in-out;
   z-index: 1;
 }
 
-/* Estilos de los ojos */
+/* 🔹 Ojos */
 .eye {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background: black;
   border-radius: 50%;
   position: absolute;
   top: 40px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .eye.left {
@@ -94,7 +97,7 @@ button:hover {
   right: 30px;
 }
 
-/* Cubrir los ojos */
+/* 🔹 Cubrir los ojos */
 .cover-eyes {
   position: absolute;
   top: 35px;
@@ -103,5 +106,11 @@ button:hover {
   height: 20px;
   background: white;
   border-radius: 10px;
-  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Mostrar los ojos cubiertos */
+.cover-eyes.show {
+  opacity: 1;
 }
