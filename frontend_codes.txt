@@ -1,3 +1,8 @@
+
+//////////////////////////
+./package-lock.json
+//////////////////////////
+
 {
   "name": "inventario-frontend",
   "version": "0.0.0",
@@ -44,10 +49,6 @@
       }
     },
     "node_modules/@esbuild/aix-ppc64": {
-
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.25.0.tgz",
-      "integrity": "sha512-O7vun9Sf8DFjH2UtqK8Ku3LkquL9SZL8OLY1T5NZkA34+wG3OQF7cl4Ql8vdNzM6fzBbYfLaiRLIOZ+2FOCgBQ==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.25.1.tgz",
       "integrity": "sha512-kfYGy8IdzTGy+z0vFGvExZtxkFlA4zAxgKEahG9KE1ScBjpQnFsNOX8KTU5ojNru5ed5CVoJYXFtoxaq5nFbjQ==",
@@ -65,9 +66,6 @@
       }
     },
     "node_modules/@esbuild/android-arm": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.25.0.tgz",
-      "integrity": "sha512-PTyWCYYiU0+1eJKmw21lWtC+d08JDZPQ5g+kFyxP0V+es6VPPSUhM6zk8iImp2jbV6GwjX4pap0JFbUQN65X1g==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.25.1.tgz",
       "integrity": "sha512-dp+MshLYux6j/JjdqVLnMglQlFu+MuVeNrmT5nk6q07wNhCdSnB7QZj+7G8VMUGh1q+vj2Bq8kRsuyA00I/k+Q==",
@@ -84,11 +82,7 @@
         "node": ">=18"
       }
     },
-    "node_modules/@esbuild/android-arm64": { 
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.25.0.tgz",
-      "integrity": "sha512-grvv8WncGjDSyUBjN9yHXNt+cq0snxXbDxy5pJtzMKGmmpPxeAmAhWxXI+01lU5rwZomDgD3kJwulEnhTRUd6g==",
-
+    "node_modules/@esbuild/android-arm64": {
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.25.1.tgz",
       "integrity": "sha512-50tM0zCJW5kGqgG7fQ7IHvQOcAn9TKiVRuQ/lN0xR+T2lzEFvAi1ZcS8DiksFcEpf1t/GYOeOfCAgDHFpkiSmA==",
@@ -106,9 +100,6 @@
       }
     },
     "node_modules/@esbuild/android-x64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.25.0.tgz",
-      "integrity": "sha512-m/ix7SfKG5buCnxasr52+LI78SQ+wgdENi9CqyCXwjVR2X4Jkz+BpC3le3AoBPYTC9NHklwngVXvbJ9/Akhrfg==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.25.1.tgz",
       "integrity": "sha512-GCj6WfUtNldqUzYkN/ITtlhwQqGWu9S45vUXs7EIYf+7rCiiqH9bCloatO9VhxsL0Pji+PF4Lz2XXCES+Q8hDw==",
@@ -125,10 +116,7 @@
         "node": ">=18"
       }
     },
-    "node_modules/@esbuild/darwin-arm64": { 
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.0.tgz",
-      "integrity": "sha512-mVwdUb5SRkPayVadIOI78K7aAnPamoeFR2bT5nszFUZ9P8UpK4ratOdYbZZXYSqPKMHfS1wdHCJk1P1EZpRdvw==",
+    "node_modules/@esbuild/darwin-arm64": {
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.1.tgz",
       "integrity": "sha512-5hEZKPf+nQjYoSr/elb62U19/l1mZDdqidGfmFutVUjjUZrOazAtwK+Kr+3y0C/oeJfLlxo9fXb1w7L+P7E4FQ==",
@@ -146,9 +134,6 @@
       }
     },
     "node_modules/@esbuild/darwin-x64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.25.0.tgz",
-      "integrity": "sha512-DgDaYsPWFTS4S3nWpFcMn/33ZZwAAeAFKNHNa1QN0rI4pUjgqf0f7ONmXf6d22tqTY+H9FNdgeaAa+YIFUn2Rg==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.25.1.tgz",
       "integrity": "sha512-hxVnwL2Dqs3fM1IWq8Iezh0cX7ZGdVhbTfnOy5uURtao5OIVCEyj9xIzemDi7sRvKsuSdtCAhMKarxqtlyVyfA==",
@@ -166,9 +151,6 @@
       }
     },
     "node_modules/@esbuild/freebsd-arm64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.25.0.tgz",
-      "integrity": "sha512-VN4ocxy6dxefN1MepBx/iD1dH5K8qNtNe227I0mnTRjry8tj5MRk4zprLEdG8WPyAPb93/e4pSgi1SoHdgOa4w==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.25.1.tgz",
       "integrity": "sha512-1MrCZs0fZa2g8E+FUo2ipw6jw5qqQiH+tERoS5fAfKnRx6NXH31tXBKI3VpmLijLH6yriMZsxJtaXUyFt/8Y4A==",
@@ -186,9 +168,6 @@
       }
     },
     "node_modules/@esbuild/freebsd-x64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.25.0.tgz",
-      "integrity": "sha512-mrSgt7lCh07FY+hDD1TxiTyIHyttn6vnjesnPoVDNmDfOmggTLXRv8Id5fNZey1gl/V2dyVK1VXXqVsQIiAk+A==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.25.1.tgz",
       "integrity": "sha512-0IZWLiTyz7nm0xuIs0q1Y3QWJC52R8aSXxe40VUxm6BB1RNmkODtW6LHvWRrGiICulcX7ZvyH6h5fqdLu4gkww==",
@@ -206,9 +185,6 @@
       }
     },
     "node_modules/@esbuild/linux-arm": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.25.0.tgz",
-      "integrity": "sha512-vkB3IYj2IDo3g9xX7HqhPYxVkNQe8qTK55fraQyTzTX/fxaDtXiEnavv9geOsonh2Fd2RMB+i5cbhu2zMNWJwg==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.25.1.tgz",
       "integrity": "sha512-NdKOhS4u7JhDKw9G3cY6sWqFcnLITn6SqivVArbzIaf3cemShqfLGHYMx8Xlm/lBit3/5d7kXvriTUGa5YViuQ==",
@@ -226,9 +202,6 @@
       }
     },
     "node_modules/@esbuild/linux-arm64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.25.0.tgz",
-      "integrity": "sha512-9QAQjTWNDM/Vk2bgBl17yWuZxZNQIF0OUUuPZRKoDtqF2k4EtYbpyiG5/Dk7nqeK6kIJWPYldkOcBqjXjrUlmg==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.25.1.tgz",
       "integrity": "sha512-jaN3dHi0/DDPelk0nLcXRm1q7DNJpjXy7yWaWvbfkPvI+7XNSc/lDOnCLN7gzsyzgu6qSAmgSvP9oXAhP973uQ==",
@@ -246,9 +219,6 @@
       }
     },
     "node_modules/@esbuild/linux-ia32": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.25.0.tgz",
-      "integrity": "sha512-43ET5bHbphBegyeqLb7I1eYn2P/JYGNmzzdidq/w0T8E2SsYL1U6un2NFROFRg1JZLTzdCoRomg8Rvf9M6W6Gg==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.25.1.tgz",
       "integrity": "sha512-OJykPaF4v8JidKNGz8c/q1lBO44sQNUQtq1KktJXdBLn1hPod5rE/Hko5ugKKZd+D2+o1a9MFGUEIUwO2YfgkQ==",
@@ -266,9 +236,6 @@
       }
     },
     "node_modules/@esbuild/linux-loong64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.25.0.tgz",
-      "integrity": "sha512-fC95c/xyNFueMhClxJmeRIj2yrSMdDfmqJnyOY4ZqsALkDrrKJfIg5NTMSzVBr5YW1jf+l7/cndBfP3MSDpoHw==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.25.1.tgz",
       "integrity": "sha512-nGfornQj4dzcq5Vp835oM/o21UMlXzn79KobKlcs3Wz9smwiifknLy4xDCLUU0BWp7b/houtdrgUz7nOGnfIYg==",
@@ -286,9 +253,6 @@
       }
     },
     "node_modules/@esbuild/linux-mips64el": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.25.0.tgz",
-      "integrity": "sha512-nkAMFju7KDW73T1DdH7glcyIptm95a7Le8irTQNO/qtkoyypZAnjchQgooFUDQhNAy4iu08N79W4T4pMBwhPwQ==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.25.1.tgz",
       "integrity": "sha512-1osBbPEFYwIE5IVB/0g2X6i1qInZa1aIoj1TdL4AaAb55xIIgbg8Doq6a5BzYWgr+tEcDzYH67XVnTmUzL+nXg==",
@@ -306,9 +270,6 @@
       }
     },
     "node_modules/@esbuild/linux-ppc64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.25.0.tgz",
-      "integrity": "sha512-NhyOejdhRGS8Iwv+KKR2zTq2PpysF9XqY+Zk77vQHqNbo/PwZCzB5/h7VGuREZm1fixhs4Q/qWRSi5zmAiO4Fw==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.25.1.tgz",
       "integrity": "sha512-/6VBJOwUf3TdTvJZ82qF3tbLuWsscd7/1w+D9LH0W/SqUgM5/JJD0lrJ1fVIfZsqB6RFmLCe0Xz3fmZc3WtyVg==",
@@ -326,9 +287,6 @@
       }
     },
     "node_modules/@esbuild/linux-riscv64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.25.0.tgz",
-      "integrity": "sha512-5S/rbP5OY+GHLC5qXp1y/Mx//e92L1YDqkiBbO9TQOvuFXM+iDqUNG5XopAnXoRH3FjIUDkeGcY1cgNvnXp/kA==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.25.1.tgz",
       "integrity": "sha512-nSut/Mx5gnilhcq2yIMLMe3Wl4FK5wx/o0QuuCLMtmJn+WeWYoEGDN1ipcN72g1WHsnIbxGXd4i/MF0gTcuAjQ==",
@@ -346,9 +304,6 @@
       }
     },
     "node_modules/@esbuild/linux-s390x": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.25.0.tgz",
-      "integrity": "sha512-XM2BFsEBz0Fw37V0zU4CXfcfuACMrppsMFKdYY2WuTS3yi8O1nFOhil/xhKTmE1nPmVyvQJjJivgDT+xh8pXJA==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.25.1.tgz",
       "integrity": "sha512-cEECeLlJNfT8kZHqLarDBQso9a27o2Zd2AQ8USAEoGtejOrCYHNtKP8XQhMDJMtthdF4GBmjR2au3x1udADQQQ==",
@@ -366,9 +321,6 @@
       }
     },
     "node_modules/@esbuild/linux-x64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.25.0.tgz",
-      "integrity": "sha512-9yl91rHw/cpwMCNytUDxwj2XjFpxML0y9HAOH9pNVQDpQrBxHy01Dx+vaMu0N1CKa/RzBD2hB4u//nfc+Sd3Cw==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.25.1.tgz",
       "integrity": "sha512-xbfUhu/gnvSEg+EGovRc+kjBAkrvtk38RlerAzQxvMzlB4fXpCFCeUAYzJvrnhFtdeyVCDANSjJvOvGYoeKzFA==",
@@ -386,9 +338,6 @@
       }
     },
     "node_modules/@esbuild/netbsd-arm64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.25.0.tgz",
-      "integrity": "sha512-RuG4PSMPFfrkH6UwCAqBzauBWTygTvb1nxWasEJooGSJ/NwRw7b2HOwyRTQIU97Hq37l3npXoZGYMy3b3xYvPw==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.25.1.tgz",
       "integrity": "sha512-O96poM2XGhLtpTh+s4+nP7YCCAfb4tJNRVZHfIE7dgmax+yMP2WgMd2OecBuaATHKTHsLWHQeuaxMRnCsH8+5g==",
@@ -406,9 +355,6 @@
       }
     },
     "node_modules/@esbuild/netbsd-x64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.25.0.tgz",
-      "integrity": "sha512-jl+qisSB5jk01N5f7sPCsBENCOlPiS/xptD5yxOx2oqQfyourJwIKLRA2yqWdifj3owQZCL2sn6o08dBzZGQzA==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.25.1.tgz",
       "integrity": "sha512-X53z6uXip6KFXBQ+Krbx25XHV/NCbzryM6ehOAeAil7X7oa4XIq+394PWGnwaSQ2WRA0KI6PUO6hTO5zeF5ijA==",
@@ -426,9 +372,6 @@
       }
     },
     "node_modules/@esbuild/openbsd-arm64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.0.tgz",
-      "integrity": "sha512-21sUNbq2r84YE+SJDfaQRvdgznTD8Xc0oc3p3iW/a1EVWeNj/SdUCbm5U0itZPQYRuRTW20fPMWMpcrciH2EJw==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.1.tgz",
       "integrity": "sha512-Na9T3szbXezdzM/Kfs3GcRQNjHzM6GzFBeU1/6IV/npKP5ORtp9zbQjvkDJ47s6BCgaAZnnnu/cY1x342+MvZg==",
@@ -446,9 +389,6 @@
       }
     },
     "node_modules/@esbuild/openbsd-x64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.25.0.tgz",
-      "integrity": "sha512-2gwwriSMPcCFRlPlKx3zLQhfN/2WjJ2NSlg5TKLQOJdV0mSxIcYNTMhk3H3ulL/cak+Xj0lY1Ym9ysDV1igceg==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.25.1.tgz",
       "integrity": "sha512-T3H78X2h1tszfRSf+txbt5aOp/e7TAz3ptVKu9Oyir3IAOFPGV6O9c2naym5TOriy1l0nNf6a4X5UXRZSGX/dw==",
@@ -466,9 +406,6 @@
       }
     },
     "node_modules/@esbuild/sunos-x64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.25.0.tgz",
-      "integrity": "sha512-bxI7ThgLzPrPz484/S9jLlvUAHYMzy6I0XiU1ZMeAEOBcS0VePBFxh1JjTQt3Xiat5b6Oh4x7UC7IwKQKIJRIg==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.25.1.tgz",
       "integrity": "sha512-2H3RUvcmULO7dIE5EWJH8eubZAI4xw54H1ilJnRNZdeo8dTADEZ21w6J22XBkXqGJbe0+wnNJtw3UXRoLJnFEg==",
@@ -486,9 +423,6 @@
       }
     },
     "node_modules/@esbuild/win32-arm64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.25.0.tgz",
-      "integrity": "sha512-ZUAc2YK6JW89xTbXvftxdnYy3m4iHIkDtK3CLce8wg8M2L+YZhIvO1DKpxrd0Yr59AeNNkTiic9YLf6FTtXWMw==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.25.1.tgz",
       "integrity": "sha512-GE7XvrdOzrb+yVKB9KsRMq+7a2U/K5Cf/8grVFRAGJmfADr/e/ODQ134RK2/eeHqYV5eQRFxb1hY7Nr15fv1NQ==",
@@ -506,9 +440,6 @@
       }
     },
     "node_modules/@esbuild/win32-ia32": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.25.0.tgz",
-      "integrity": "sha512-eSNxISBu8XweVEWG31/JzjkIGbGIJN/TrRoiSVZwZ6pkC6VX4Im/WV2cz559/TXLcYbcrDN8JtKgd9DJVIo8GA==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.25.1.tgz",
       "integrity": "sha512-uOxSJCIcavSiT6UnBhBzE8wy3n0hOkJsBOzy7HDAuTDE++1DJMRRVCPGisULScHL+a/ZwdXPpXD3IyFKjA7K8A==",
@@ -526,9 +457,6 @@
       }
     },
     "node_modules/@esbuild/win32-x64": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.0.tgz",
-      "integrity": "sha512-ZENoHJBxA20C2zFzh6AI4fT6RraMzjYw4xKWemRTRmRVtN9c5DcH9r/f2ihEkMjOW5eGgrwCslG/+Y/3bL+DHQ==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.1.tgz",
       "integrity": "sha512-Y1EQdcfwMSeQN/ujR5VayLOJ1BHaK+ssyk0AEzPjC+t1lITgsnccPqFjb6V+LsTp/9Iov4ysfjxLaGJ9RPtkVg==",
@@ -546,9 +474,6 @@
       }
     },
     "node_modules/@eslint-community/eslint-utils": {
-      "version": "4.4.1",
-      "resolved": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.1.tgz",
-      "integrity": "sha512-s3O3waFUrMV8P/XaF/+ZTp1X9XBZW1a4B97ZnjQF2KYWaFD2A8KyFBsrsfSjEmjn3RGWAIuvlneuZm3CUK3jbA==",
       "version": "4.5.1",
       "resolved": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.5.1.tgz",
       "integrity": "sha512-soEIOALTfTK6EjmKMMoLugwaP0rzkad90iIWd1hMO9ARkSAyjfMfkRRhLvD5qH7vvM0Cg72pieUfR6yh6XxC4w==",
@@ -666,9 +591,6 @@
       }
     },
     "node_modules/@eslint/js": {
-      "version": "9.21.0",
-      "resolved": "https://registry.npmjs.org/@eslint/js/-/js-9.21.0.tgz",
-      "integrity": "sha512-BqStZ3HX8Yz6LvsF5ByXYrtigrV5AXADWLAGc7PH/1SxOb7/FIYYMszZZWiUou/GB9P2lXWk2SV4d+Z8h0nknw==",
       "version": "9.22.0",
       "resolved": "https://registry.npmjs.org/@eslint/js/-/js-9.22.0.tgz",
       "integrity": "sha512-vLFajx9o8d1/oL2ZkpMYbkLv8nDB6yaIwFNt7nI4+I80U/z03SxmfOMsLbvWr3p7C+Wnoh//aOu2pQW8cS0HCQ==",
@@ -769,9 +691,6 @@
       }
     },
     "node_modules/@rollup/rollup-android-arm-eabi": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.34.8.tgz",
-      "integrity": "sha512-q217OSE8DTp8AFHuNHXo0Y86e1wtlfVrXiAlwkIvGRQv9zbc6mE3sjIVfwI8sYUyNxwOg0j/Vm1RKM04JcWLJw==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.36.0.tgz",
       "integrity": "sha512-jgrXjjcEwN6XpZXL0HUeOVGfjXhPyxAbbhD0BlXUB+abTOpbPiN5Wb3kOT7yb+uEtATNYF5x5gIfwutmuBA26w==",
@@ -786,9 +705,6 @@
       ]
     },
     "node_modules/@rollup/rollup-android-arm64": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.34.8.tgz",
-      "integrity": "sha512-Gigjz7mNWaOL9wCggvoK3jEIUUbGul656opstjaUSGC3eT0BM7PofdAJaBfPFWWkXNVAXbaQtC99OCg4sJv70Q==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.36.0.tgz",
       "integrity": "sha512-NyfuLvdPdNUfUNeYKUwPwKsE5SXa2J6bCt2LdB/N+AxShnkpiczi3tcLJrm5mA+eqpy0HmaIY9F6XCa32N5yzg==",
@@ -803,9 +719,6 @@
       ]
     },
     "node_modules/@rollup/rollup-darwin-arm64": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.34.8.tgz",
-      "integrity": "sha512-02rVdZ5tgdUNRxIUrFdcMBZQoaPMrxtwSb+/hOfBdqkatYHR3lZ2A2EGyHq2sGOd0Owk80oV3snlDASC24He3Q==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.36.0.tgz",
       "integrity": "sha512-JQ1Jk5G4bGrD4pWJQzWsD8I1n1mgPXq33+/vP4sk8j/z/C2siRuxZtaUA7yMTf71TCZTZl/4e1bfzwUmFb3+rw==",
@@ -820,9 +733,6 @@
       ]
     },
     "node_modules/@rollup/rollup-darwin-x64": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.34.8.tgz",
-      "integrity": "sha512-qIP/elwR/tq/dYRx3lgwK31jkZvMiD6qUtOycLhTzCvrjbZ3LjQnEM9rNhSGpbLXVJYQ3rq39A6Re0h9tU2ynw==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.36.0.tgz",
       "integrity": "sha512-6c6wMZa1lrtiRsbDziCmjE53YbTkxMYhhnWnSW8R/yqsM7a6mSJ3uAVT0t8Y/DGt7gxUWYuFM4bwWk9XCJrFKA==",
@@ -837,9 +747,6 @@
       ]
     },
     "node_modules/@rollup/rollup-freebsd-arm64": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.8.tgz",
-      "integrity": "sha512-IQNVXL9iY6NniYbTaOKdrlVP3XIqazBgJOVkddzJlqnCpRi/yAeSOa8PLcECFSQochzqApIOE1GHNu3pCz+BDA==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.36.0.tgz",
       "integrity": "sha512-KXVsijKeJXOl8QzXTsA+sHVDsFOmMCdBRgFmBb+mfEb/7geR7+C8ypAml4fquUt14ZyVXaw2o1FWhqAfOvA4sg==",
@@ -854,9 +761,6 @@
       ]
     },
     "node_modules/@rollup/rollup-freebsd-x64": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.34.8.tgz",
-      "integrity": "sha512-TYXcHghgnCqYFiE3FT5QwXtOZqDj5GmaFNTNt3jNC+vh22dc/ukG2cG+pi75QO4kACohZzidsq7yKTKwq/Jq7Q==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.36.0.tgz",
       "integrity": "sha512-dVeWq1ebbvByI+ndz4IJcD4a09RJgRYmLccwlQ8bPd4olz3Y213uf1iwvc7ZaxNn2ab7bjc08PrtBgMu6nb4pQ==",
@@ -871,9 +775,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-arm-gnueabihf": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.34.8.tgz",
-      "integrity": "sha512-A4iphFGNkWRd+5m3VIGuqHnG3MVnqKe7Al57u9mwgbyZ2/xF9Jio72MaY7xxh+Y87VAHmGQr73qoKL9HPbXj1g==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.36.0.tgz",
       "integrity": "sha512-bvXVU42mOVcF4le6XSjscdXjqx8okv4n5vmwgzcmtvFdifQ5U4dXFYaCB87namDRKlUL9ybVtLQ9ztnawaSzvg==",
@@ -888,9 +789,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-arm-musleabihf": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.34.8.tgz",
-      "integrity": "sha512-S0lqKLfTm5u+QTxlFiAnb2J/2dgQqRy/XvziPtDd1rKZFXHTyYLoVL58M/XFwDI01AQCDIevGLbQrMAtdyanpA==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.36.0.tgz",
       "integrity": "sha512-JFIQrDJYrxOnyDQGYkqnNBtjDwTgbasdbUiQvcU8JmGDfValfH1lNpng+4FWlhaVIR4KPkeddYjsVVbmJYvDcg==",
@@ -905,9 +803,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-arm64-gnu": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.34.8.tgz",
-      "integrity": "sha512-jpz9YOuPiSkL4G4pqKrus0pn9aYwpImGkosRKwNi+sJSkz+WU3anZe6hi73StLOQdfXYXC7hUfsQlTnjMd3s1A==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.36.0.tgz",
       "integrity": "sha512-KqjYVh3oM1bj//5X7k79PSCZ6CvaVzb7Qs7VMWS+SlWB5M8p3FqufLP9VNp4CazJ0CsPDLwVD9r3vX7Ci4J56A==",
@@ -922,9 +817,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-arm64-musl": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.34.8.tgz",
-      "integrity": "sha512-KdSfaROOUJXgTVxJNAZ3KwkRc5nggDk+06P6lgi1HLv1hskgvxHUKZ4xtwHkVYJ1Rep4GNo+uEfycCRRxht7+Q==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.36.0.tgz",
       "integrity": "sha512-QiGnhScND+mAAtfHqeT+cB1S9yFnNQ/EwCg5yE3MzoaZZnIV0RV9O5alJAoJKX/sBONVKeZdMfO8QSaWEygMhw==",
@@ -939,9 +831,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-loongarch64-gnu": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.34.8.tgz",
-      "integrity": "sha512-NyF4gcxwkMFRjgXBM6g2lkT58OWztZvw5KkV2K0qqSnUEqCVcqdh2jN4gQrTn/YUpAcNKyFHfoOZEer9nwo6uQ==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.36.0.tgz",
       "integrity": "sha512-1ZPyEDWF8phd4FQtTzMh8FQwqzvIjLsl6/84gzUxnMNFBtExBtpL51H67mV9xipuxl1AEAerRBgBwFNpkw8+Lg==",
@@ -956,9 +845,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-powerpc64le-gnu": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.34.8.tgz",
-      "integrity": "sha512-LMJc999GkhGvktHU85zNTDImZVUCJ1z/MbAJTnviiWmmjyckP5aQsHtcujMjpNdMZPT2rQEDBlJfubhs3jsMfw==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.36.0.tgz",
       "integrity": "sha512-VMPMEIUpPFKpPI9GZMhJrtu8rxnp6mJR3ZzQPykq4xc2GmdHj3Q4cA+7avMyegXy4n1v+Qynr9fR88BmyO74tg==",
@@ -973,9 +859,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-riscv64-gnu": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.34.8.tgz",
-      "integrity": "sha512-xAQCAHPj8nJq1PI3z8CIZzXuXCstquz7cIOL73HHdXiRcKk8Ywwqtx2wrIy23EcTn4aZ2fLJNBB8d0tQENPCmw==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.36.0.tgz",
       "integrity": "sha512-ttE6ayb/kHwNRJGYLpuAvB7SMtOeQnVXEIpMtAvx3kepFQeowVED0n1K9nAdraHUPJ5hydEMxBpIR7o4nrm8uA==",
@@ -990,9 +873,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-s390x-gnu": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.34.8.tgz",
-      "integrity": "sha512-DdePVk1NDEuc3fOe3dPPTb+rjMtuFw89gw6gVWxQFAuEqqSdDKnrwzZHrUYdac7A7dXl9Q2Vflxpme15gUWQFA==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.36.0.tgz",
       "integrity": "sha512-4a5gf2jpS0AIe7uBjxDeUMNcFmaRTbNv7NxI5xOCs4lhzsVyGR/0qBXduPnoWf6dGC365saTiwag8hP1imTgag==",
@@ -1007,9 +887,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-x64-gnu": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.34.8.tgz",
-      "integrity": "sha512-8y7ED8gjxITUltTUEJLQdgpbPh1sUQ0kMTmufRF/Ns5tI9TNMNlhWtmPKKHCU0SilX+3MJkZ0zERYYGIVBYHIA==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.36.0.tgz",
       "integrity": "sha512-5KtoW8UWmwFKQ96aQL3LlRXX16IMwyzMq/jSSVIIyAANiE1doaQsx/KRyhAvpHlPjPiSU/AYX/8m+lQ9VToxFQ==",
@@ -1024,9 +901,6 @@
       ]
     },
     "node_modules/@rollup/rollup-linux-x64-musl": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.34.8.tgz",
-      "integrity": "sha512-SCXcP0ZpGFIe7Ge+McxY5zKxiEI5ra+GT3QRxL0pMMtxPfpyLAKleZODi1zdRHkz5/BhueUrYtYVgubqe9JBNQ==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.36.0.tgz",
       "integrity": "sha512-sycrYZPrv2ag4OCvaN5js+f01eoZ2U+RmT5as8vhxiFz+kxwlHrsxOwKPSA8WyS+Wc6Epid9QeI/IkQ9NkgYyQ==",
@@ -1041,9 +915,6 @@
       ]
     },
     "node_modules/@rollup/rollup-win32-arm64-msvc": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.34.8.tgz",
-      "integrity": "sha512-YHYsgzZgFJzTRbth4h7Or0m5O74Yda+hLin0irAIobkLQFRQd1qWmnoVfwmKm9TXIZVAD0nZ+GEb2ICicLyCnQ==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.36.0.tgz",
       "integrity": "sha512-qbqt4N7tokFwwSVlWDsjfoHgviS3n/vZ8LK0h1uLG9TYIRuUTJC88E1xb3LM2iqZ/WTqNQjYrtmtGmrmmawB6A==",
@@ -1058,9 +929,6 @@
       ]
     },
     "node_modules/@rollup/rollup-win32-ia32-msvc": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.34.8.tgz",
-      "integrity": "sha512-r3NRQrXkHr4uWy5TOjTpTYojR9XmF0j/RYgKCef+Ag46FWUTltm5ziticv8LdNsDMehjJ543x/+TJAek/xBA2w==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.36.0.tgz",
       "integrity": "sha512-t+RY0JuRamIocMuQcfwYSOkmdX9dtkr1PbhKW42AMvaDQa+jOdpUYysroTF/nuPpAaQMWp7ye+ndlmmthieJrQ==",
@@ -1075,9 +943,6 @@
       ]
     },
     "node_modules/@rollup/rollup-win32-x64-msvc": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.34.8.tgz",
-      "integrity": "sha512-U0FaE5O1BCpZSeE6gBl3c5ObhePQSfk9vDRToMmTkbhCOgW4jqvtS5LGyQ76L1fH8sM0keRp4uDTsbjiUyjk0g==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.36.0.tgz",
       "integrity": "sha512-aRXd7tRZkWLqGbChgcMMDEHjOKudo1kChb1Jt1IfR8cY/KIpgNviLeJy5FUb9IpSuQj8dU2fAYNMPW/hLKOSTw==",
@@ -1092,9 +957,6 @@
       ]
     },
     "node_modules/@swc/core": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core/-/core-1.11.4.tgz",
-      "integrity": "sha512-EHl6eNod/914xDRK4nu7gr78riK2cfi4DkAMvJt6COdaNGOnbR5eKrLe3SnRizyzzrPcxUMhflDL5hrcXS8rAQ==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core/-/core-1.11.10.tgz",
       "integrity": "sha512-Si27CiYwqJSF3K0HgxugQnjHNfH7YqqD89V+fLpyRHr81uTmCQpF0bnVdRMQ2SGAkCFJACYETRiBSrZOQ660+Q==",
@@ -1113,16 +975,6 @@
         "url": "https://opencollective.com/swc"
       },
       "optionalDependencies": {
-        "@swc/core-darwin-arm64": "1.11.4",
-        "@swc/core-darwin-x64": "1.11.4",
-        "@swc/core-linux-arm-gnueabihf": "1.11.4",
-        "@swc/core-linux-arm64-gnu": "1.11.4",
-        "@swc/core-linux-arm64-musl": "1.11.4",
-        "@swc/core-linux-x64-gnu": "1.11.4",
-        "@swc/core-linux-x64-musl": "1.11.4",
-        "@swc/core-win32-arm64-msvc": "1.11.4",
-        "@swc/core-win32-ia32-msvc": "1.11.4",
-        "@swc/core-win32-x64-msvc": "1.11.4"
         "@swc/core-darwin-arm64": "1.11.10",
         "@swc/core-darwin-x64": "1.11.10",
         "@swc/core-linux-arm-gnueabihf": "1.11.10",
@@ -1144,9 +996,6 @@
       }
     },
     "node_modules/@swc/core-darwin-arm64": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.11.4.tgz",
-      "integrity": "sha512-Oi4lt4wqjpp80pcCh+vzvpsESJ8XXozYCE5EM/dDpr+9m2oRpkseds7Gq4ulzgdbUDPo1jJ1PonjjrKpfKY+sQ==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.11.10.tgz",
       "integrity": "sha512-FWwYyhUu+xRXldXHw4CBP6M0rXQs9gnE5/qodsb+cyOJaTHI8kU6FJtwaC0PiOVxjREdg/DoTrXS4sZUiL881A==",
@@ -1164,9 +1013,6 @@
       }
     },
     "node_modules/@swc/core-darwin-x64": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-darwin-x64/-/core-darwin-x64-1.11.4.tgz",
-      "integrity": "sha512-Tb7ez94DXxhX5iJ5slnAlT2gwJinQk3pMnQ46Npi6adKr3ZXM5Bdk0jpRUp8XjEcgNXkQRV1DtrySgCz6YlEnQ==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-darwin-x64/-/core-darwin-x64-1.11.10.tgz",
       "integrity": "sha512-NKQ62w81TGR5YAidV3KF7CDY0nu62OWmz6Hl/mB/i8Cd9xPc+MnLwdY1cJOU/DsrU4YnRFSaOfBF4Fx4mKLWxA==",
@@ -1184,9 +1030,6 @@
       }
     },
     "node_modules/@swc/core-linux-arm-gnueabihf": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.11.4.tgz",
-      "integrity": "sha512-p1uV+6Mi+0M+1kL7qL206ZaohomYMW7yroXSLDTJXbIylx7wG2xrUQL6AFtz2DwqDoX/E8jMNBjp+GcEy8r8Ig==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.11.10.tgz",
       "integrity": "sha512-1Vu+ZjoR7M8ShIf0Koi+B1OJ6DsU7jd4Py743KCgKlabvLFrv/uahp5fPJ1kyAUTxFE5d37qWqWLl5NkYDmDtQ==",
@@ -1204,9 +1047,6 @@
       }
     },
     "node_modules/@swc/core-linux-arm64-gnu": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.11.4.tgz",
-      "integrity": "sha512-4ijX4bWf9oc7kWkT6xUhugVGzEJ7U9c7CHNmt/xhI/yWsQdfM11+HECqWh7ay3m+aaEoVdvTeU5gykeF5jSxDA==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.11.10.tgz",
       "integrity": "sha512-mP26821Auyqa+Dce8gFlH4GxxbJ8xJU8H5/iIU8ObK12ulmK75G2VdILoc3gFDKfx3K7IqQkfokW3PAGI9X2Vg==",
@@ -1224,9 +1064,6 @@
       }
     },
     "node_modules/@swc/core-linux-arm64-musl": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.11.4.tgz",
-      "integrity": "sha512-XI+gOgcuSanejbAC5QXKTjNA3GUJi7bzHmeJbNhKpX9d349RdVwan0k9okHmhMBY7BywAg3LK0ovF9PmOLgMHg==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.11.10.tgz",
       "integrity": "sha512-XZ61quwNgTqvbMqpFAa6/ZqoErabocHUHMWQHyShxbqM2nkP1sBe6EgODX6mNSzLn0u+KDVRyQUy9ratt+xbFw==",
@@ -1244,9 +1081,6 @@
       }
     },
     "node_modules/@swc/core-linux-x64-gnu": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.11.4.tgz",
-      "integrity": "sha512-wyD6noaCPFayKOvl9mTxuiQoEULAagGuO0od2VkW7h4HvlgpOAZNekZYX73WEP/b+WuePNHurZ9KGpom43IzmA==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.11.10.tgz",
       "integrity": "sha512-BwohorC2nkak8YQuS6IH/70XkhBjqmPbL7KT0NKmr4sstRe52I3F5Vbo30xBckpvT8ZRPvjmjK3FvJ2Rf3PRmw==",
@@ -1264,9 +1098,6 @@
       }
     },
     "node_modules/@swc/core-linux-x64-musl": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.11.4.tgz",
-      "integrity": "sha512-e2vG9gUF1BRX0BWqSEHop6u14l5BtV3VS2Pmr+oquc0Ycs/zj81xhYc3ML4ByK5OxDkAaKBWryAOKTLaJA/DVg==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.11.10.tgz",
       "integrity": "sha512-bCaEJVB1+5KscAolNfL6qd3I1bVovhNDShutrTlNXNvjqNavWrX8z8ZfSJ3oK6CvrBzFR6fjCSqkoD+ckKBYBA==",
@@ -1284,9 +1115,6 @@
       }
     },
     "node_modules/@swc/core-win32-arm64-msvc": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.11.4.tgz",
-      "integrity": "sha512-rm51iljNqjCA/41gxYameuyjX1ENaTlvdxmaoPPYeUDt6hfypG93IxMJJCewaeHN9XfNxqZU7d4cupNqk+8nng==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.11.10.tgz",
       "integrity": "sha512-Gq4svadhEVP7xClzsV8W2/8R/kfEUbJJKIS2fj8hb9lM6/AVs/PVmDiLGye6cYfVpQzkdDsJLm8r4yhSAIFsFQ==",
@@ -1304,9 +1132,6 @@
       }
     },
     "node_modules/@swc/core-win32-ia32-msvc": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.11.4.tgz",
-      "integrity": "sha512-PHy3N6zlyU8te7Umi0ggXNbcx2VUkwpE59PW9FQQy9MBZM1Qn+OEGnO/4KLWjGFABw+9CwIeaRYgq6uCi1ry6A==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.11.10.tgz",
       "integrity": "sha512-RkZYTY0pQiHgcoFJwZoFZiEWw4WB/XVLp+y90l4Ar1nnoQQNmfb4FyvWYZbDQgrMGP0Wj5WhZuMXzW12/qI5Kg==",
@@ -1324,9 +1149,6 @@
       }
     },
     "node_modules/@swc/core-win32-x64-msvc": {
-      "version": "1.11.4",
-      "resolved": "https://registry.npmjs.org/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.11.4.tgz",
-      "integrity": "sha512-0TiriDGl7Dr4ObfMBk07PS4Ql5hgQH0QnU3E8I+fbs45hqfwC5OrN47HOsXx4ZbEw8XYxp2NM8SGnVoTIm4J8w==",
       "version": "1.11.10",
       "resolved": "https://registry.npmjs.org/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.11.10.tgz",
       "integrity": "sha512-clDl+oAl6YLsqZiGb8NzpEXTdIzCTPCJSRFCeHIldjLlsAs+qsqItry2r2xSAKU1pFv4D7j9WgJmVVxOPgs/Jg==",
@@ -1361,9 +1183,6 @@
       }
     },
     "node_modules/@tailwindcss/node": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/node/-/node-4.0.9.tgz",
-      "integrity": "sha512-tOJvdI7XfJbARYhxX+0RArAhmuDcczTC46DGCEziqxzzbIaPnfYaIyRT31n4u8lROrsO7Q6u/K9bmQHL2uL1bQ==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/node/-/node-4.0.14.tgz",
       "integrity": "sha512-Ux9NbFkKWYE4rfUFz6M5JFLs/GEYP6ysxT8uSyPn6aTbh2K3xDE1zz++eVK4Vwx799fzMF8CID9sdHn4j/Ab8w==",
@@ -1372,13 +1191,6 @@
       "dependencies": {
         "enhanced-resolve": "^5.18.1",
         "jiti": "^2.4.2",
-        "tailwindcss": "4.0.9"
-      }
-    },
-    "node_modules/@tailwindcss/oxide": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.0.9.tgz",
-      "integrity": "sha512-eLizHmXFqHswJONwfqi/WZjtmWZpIalpvMlNhTM99/bkHtUs6IqgI1XQ0/W5eO2HiRQcIlXUogI2ycvKhVLNcA==",
         "tailwindcss": "4.0.14"
       }
     },
@@ -1392,23 +1204,6 @@
         "node": ">= 10"
       },
       "optionalDependencies": {
-        "@tailwindcss/oxide-android-arm64": "4.0.9",
-        "@tailwindcss/oxide-darwin-arm64": "4.0.9",
-        "@tailwindcss/oxide-darwin-x64": "4.0.9",
-        "@tailwindcss/oxide-freebsd-x64": "4.0.9",
-        "@tailwindcss/oxide-linux-arm-gnueabihf": "4.0.9",
-        "@tailwindcss/oxide-linux-arm64-gnu": "4.0.9",
-        "@tailwindcss/oxide-linux-arm64-musl": "4.0.9",
-        "@tailwindcss/oxide-linux-x64-gnu": "4.0.9",
-        "@tailwindcss/oxide-linux-x64-musl": "4.0.9",
-        "@tailwindcss/oxide-win32-arm64-msvc": "4.0.9",
-        "@tailwindcss/oxide-win32-x64-msvc": "4.0.9"
-      }
-    },
-    "node_modules/@tailwindcss/oxide-android-arm64": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.0.9.tgz",
-      "integrity": "sha512-YBgy6+2flE/8dbtrdotVInhMVIxnHJPbAwa7U1gX4l2ThUIaPUp18LjB9wEH8wAGMBZUb//SzLtdXXNBHPUl6Q==",
         "@tailwindcss/oxide-android-arm64": "4.0.14",
         "@tailwindcss/oxide-darwin-arm64": "4.0.14",
         "@tailwindcss/oxide-darwin-x64": "4.0.14",
@@ -1440,9 +1235,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-darwin-arm64": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.0.9.tgz",
-      "integrity": "sha512-pWdl4J2dIHXALgy2jVkwKBmtEb73kqIfMpYmcgESr7oPQ+lbcQ4+tlPeVXaSAmang+vglAfFpXQCOvs/aGSqlw==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.0.14.tgz",
       "integrity": "sha512-U3XOwLrefGr2YQZ9DXasDSNWGPZBCh8F62+AExBEDMLDfvLLgI/HDzY8Oq8p/JtqkAY38sWPOaNnRwEGKU5Zmg==",
@@ -1460,9 +1252,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-darwin-x64": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.0.9.tgz",
-      "integrity": "sha512-4Dq3lKp0/C7vrRSkNPtBGVebEyWt9QPPlQctxJ0H3MDyiQYvzVYf8jKow7h5QkWNe8hbatEqljMj/Y0M+ERYJg==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.0.14.tgz",
       "integrity": "sha512-V5AjFuc3ndWGnOi1d379UsODb0TzAS2DYIP/lwEbfvafUaD2aNZIcbwJtYu2DQqO2+s/XBvDVA+w4yUyaewRwg==",
@@ -1480,9 +1269,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-freebsd-x64": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.0.9.tgz",
-      "integrity": "sha512-k7U1RwRODta8x0uealtVt3RoWAWqA+D5FAOsvVGpYoI6ObgmnzqWW6pnVwz70tL8UZ/QXjeMyiICXyjzB6OGtQ==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.0.14.tgz",
       "integrity": "sha512-tXvtxbaZfcPfqBwW3f53lTcyH6EDT+1eT7yabwcfcxTs+8yTPqxsDUhrqe9MrnEzpNkd+R/QAjJapfd4tjWdLg==",
@@ -1500,9 +1286,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-linux-arm-gnueabihf": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.0.9.tgz",
-      "integrity": "sha512-NDDjVweHz2zo4j+oS8y3KwKL5wGCZoXGA9ruJM982uVJLdsF8/1AeKvUwKRlMBpxHt1EdWJSAh8a0Mfhl28GlQ==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.0.14.tgz",
       "integrity": "sha512-cSeLNWWqIWeSTmBntQvyY2/2gcLX8rkPFfDDTQVF8qbRcRMVPLxBvFVJyfSAYRNch6ZyVH2GI6dtgALOBDpdNA==",
@@ -1520,9 +1303,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-linux-arm64-gnu": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.0.9.tgz",
-      "integrity": "sha512-jk90UZ0jzJl3Dy1BhuFfRZ2KP9wVKMXPjmCtY4U6fF2LvrjP5gWFJj5VHzfzHonJexjrGe1lMzgtjriuZkxagg==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.0.14.tgz",
       "integrity": "sha512-bwDWLBalXFMDItcSXzFk6y7QKvj6oFlaY9vM+agTlwFL1n1OhDHYLZkSjaYsh6KCeG0VB0r7H8PUJVOM1LRZyg==",
@@ -1540,9 +1320,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-linux-arm64-musl": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.0.9.tgz",
-      "integrity": "sha512-3eMjyTC6HBxh9nRgOHzrc96PYh1/jWOwHZ3Kk0JN0Kl25BJ80Lj9HEvvwVDNTgPg154LdICwuFLuhfgH9DULmg==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.0.14.tgz",
       "integrity": "sha512-gVkJdnR/L6iIcGYXx64HGJRmlme2FGr/aZH0W6u4A3RgPMAb+6ELRLi+UBiH83RXBm9vwCfkIC/q8T51h8vUJQ==",
@@ -1560,9 +1337,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-linux-x64-gnu": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.0.9.tgz",
-      "integrity": "sha512-v0D8WqI/c3WpWH1kq/HP0J899ATLdGZmENa2/emmNjubT0sWtEke9W9+wXeEoACuGAhF9i3PO5MeyditpDCiWQ==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.0.14.tgz",
       "integrity": "sha512-EE+EQ+c6tTpzsg+LGO1uuusjXxYx0Q00JE5ubcIGfsogSKth8n8i2BcS2wYTQe4jXGs+BQs35l78BIPzgwLddw==",
@@ -1580,9 +1354,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-linux-x64-musl": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.0.9.tgz",
-      "integrity": "sha512-Kvp0TCkfeXyeehqLJr7otsc4hd/BUPfcIGrQiwsTVCfaMfjQZCG7DjI+9/QqPZha8YapLA9UoIcUILRYO7NE1Q==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.0.14.tgz",
       "integrity": "sha512-KCCOzo+L6XPT0oUp2Jwh233ETRQ/F6cwUnMnR0FvMUCbkDAzHbcyOgpfuAtRa5HD0WbTbH4pVD+S0pn1EhNfbw==",
@@ -1600,9 +1371,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-win32-arm64-msvc": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.0.9.tgz",
-      "integrity": "sha512-m3+60T/7YvWekajNq/eexjhV8z10rswcz4BC9bioJ7YaN+7K8W2AmLmG0B79H14m6UHE571qB0XsPus4n0QVgQ==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.0.14.tgz",
       "integrity": "sha512-AHObFiFL9lNYcm3tZSPqa/cHGpM5wOrNmM2uOMoKppp+0Hom5uuyRh0QkOp7jftsHZdrZUpmoz0Mp6vhh2XtUg==",
@@ -1620,9 +1388,6 @@
       }
     },
     "node_modules/@tailwindcss/oxide-win32-x64-msvc": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.0.9.tgz",
-      "integrity": "sha512-dpc05mSlqkwVNOUjGu/ZXd5U1XNch1kHFJ4/cHkZFvaW1RzbHmRt24gvM8/HC6IirMxNarzVw4IXVtvrOoZtxA==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.0.14.tgz",
       "integrity": "sha512-rNXXMDJfCJLw/ZaFTOLOHoGULxyXfh2iXTGiChFiYTSgKBKQHIGEpV0yn5N25WGzJJ+VBnRjHzlmDqRV+d//oQ==",
@@ -1640,9 +1405,6 @@
       }
     },
     "node_modules/@tailwindcss/postcss": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.0.9.tgz",
-      "integrity": "sha512-BT/E+pdMqulavEAVM5NCpxmGEwHiLDPpkmg/c/X25ZBW+izTe+aZ+v1gf/HXTrihRoCxrUp5U4YyHsBTzspQKQ==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.0.14.tgz",
       "integrity": "sha512-+uIR6KtKhla1XeIanF27KtrfYy+PX+R679v5LxbkmEZlhQe3g8rk+wKj7Xgt++rWGRuFLGMXY80Ek8JNn+kN/g==",
@@ -1650,11 +1412,6 @@
       "license": "MIT",
       "dependencies": {
         "@alloc/quick-lru": "^5.2.0",
-        "@tailwindcss/node": "4.0.9",
-        "@tailwindcss/oxide": "4.0.9",
-        "lightningcss": "^1.29.1",
-        "postcss": "^8.4.41",
-        "tailwindcss": "4.0.9"
         "@tailwindcss/node": "4.0.14",
         "@tailwindcss/oxide": "4.0.14",
         "lightningcss": "1.29.2",
@@ -1716,9 +1473,6 @@
       }
     },
     "node_modules/acorn": {
-      "version": "8.14.0",
-      "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.14.0.tgz",
-      "integrity": "sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==",
       "version": "8.14.1",
       "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.14.1.tgz",
       "integrity": "sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==",
@@ -1788,9 +1542,6 @@
       "license": "MIT"
     },
     "node_modules/autoprefixer": {
-      "version": "10.4.20",
-      "resolved": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz",
-      "integrity": "sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==",
       "version": "10.4.21",
       "resolved": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.21.tgz",
       "integrity": "sha512-O+A6LWV5LDHSJD3LjHYoNi4VLsj/Whi7k6zG12xTYaU4cQ8oxQGckXNX8cRHK5yOZ/ppVHe0ZBXGzSV9jXdVbQ==",
@@ -1811,11 +1562,6 @@
       ],
       "license": "MIT",
       "dependencies": {
-        "browserslist": "^4.23.3",
-        "caniuse-lite": "^1.0.30001646",
-        "fraction.js": "^4.3.7",
-        "normalize-range": "^0.1.2",
-        "picocolors": "^1.0.1",
         "browserslist": "^4.24.4",
         "caniuse-lite": "^1.0.30001702",
         "fraction.js": "^4.3.7",
@@ -1834,9 +1580,6 @@
       }
     },
     "node_modules/axios": {
-      "version": "1.8.1",
-      "resolved": "https://registry.npmjs.org/axios/-/axios-1.8.1.tgz",
-      "integrity": "sha512-NN+fvwH/kV01dYUQ3PTOZns4LWtWhOFCAhQ/pHb88WQ1hNe5V/dvFwc4VJcDL11LT9xSX0QtsR8sWUuyOuOq7g==",
       "version": "1.8.3",
       "resolved": "https://registry.npmjs.org/axios/-/axios-1.8.3.tgz",
       "integrity": "sha512-iP4DebzoNlP/YN2dpwCgb8zoCmhtkajzS48JvwmkSkXvPI3DHc7m+XYL5tGnSlJtR6nImXZmdCuN5aP8dh1d8A==",
@@ -1922,9 +1665,6 @@
       }
     },
     "node_modules/caniuse-lite": {
-      "version": "1.0.30001701",
-      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001701.tgz",
-      "integrity": "sha512-faRs/AW3jA9nTwmJBSO1PQ6L/EOgsB5HMQQq4iCu5zhPgVVgO/pZRHlmatwijZKetFw8/Pr4q6dEN8sJuq8qTw==",
       "version": "1.0.30001705",
       "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001705.tgz",
       "integrity": "sha512-S0uyMMiYvA7CxNgomYBwwwPUnWzFD83f3B1ce5jHUfHTH//QL6hHsreI8RVC5606R4ssqravelYO5TU6t8sEyg==",
@@ -2067,16 +1807,6 @@
       }
     },
     "node_modules/detect-libc": {
-      "version": "1.0.3",
-      "resolved": "https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz",
-      "integrity": "sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==",
-      "dev": true,
-      "license": "Apache-2.0",
-      "bin": {
-        "detect-libc": "bin/detect-libc.js"
-      },
-      "engines": {
-        "node": ">=0.10"
       "version": "2.0.3",
       "resolved": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.3.tgz",
       "integrity": "sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==",
@@ -2101,9 +1831,6 @@
       }
     },
     "node_modules/electron-to-chromium": {
-      "version": "1.5.109",
-      "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.109.tgz",
-      "integrity": "sha512-AidaH9JETVRr9DIPGfp1kAarm/W6hRJTPuCnkF+2MqhF4KaAgRIcBc8nvjk+YMXZhwfISof/7WG29eS4iGxQLQ==",
       "version": "1.5.119",
       "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.119.tgz",
       "integrity": "sha512-Ku4NMzUjz3e3Vweh7PhApPrZSS4fyiCIbcIrG9eKrriYVLmbMepETR/v6SU7xPm98QTqMSYiCwfO89QNjXLkbQ==",
@@ -2170,9 +1897,6 @@
       }
     },
     "node_modules/esbuild": {
-      "version": "0.25.0",
-      "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.25.0.tgz",
-      "integrity": "sha512-BXq5mqc8ltbaN34cDqWuYKyNhX8D/Z0J1xdtdQ8UcIIIyJyz+ZMKUt58tF3SrZ85jcfN/PZYhjR5uDQAYNVbuw==",
       "version": "0.25.1",
       "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.25.1.tgz",
       "integrity": "sha512-BGO5LtrGC7vxnqucAe/rmvKdJllfGaYWdyABvyMoXQlfYMb2bbRuReWR5tEGE//4LcNJj9XrkovTqNYRFZHAMQ==",
@@ -2186,31 +1910,6 @@
         "node": ">=18"
       },
       "optionalDependencies": {
-        "@esbuild/aix-ppc64": "0.25.0",
-        "@esbuild/android-arm": "0.25.0",
-        "@esbuild/android-arm64": "0.25.0",
-        "@esbuild/android-x64": "0.25.0",
-        "@esbuild/darwin-arm64": "0.25.0",
-        "@esbuild/darwin-x64": "0.25.0",
-        "@esbuild/freebsd-arm64": "0.25.0",
-        "@esbuild/freebsd-x64": "0.25.0",
-        "@esbuild/linux-arm": "0.25.0",
-        "@esbuild/linux-arm64": "0.25.0",
-        "@esbuild/linux-ia32": "0.25.0",
-        "@esbuild/linux-loong64": "0.25.0",
-        "@esbuild/linux-mips64el": "0.25.0",
-        "@esbuild/linux-ppc64": "0.25.0",
-        "@esbuild/linux-riscv64": "0.25.0",
-        "@esbuild/linux-s390x": "0.25.0",
-        "@esbuild/linux-x64": "0.25.0",
-        "@esbuild/netbsd-arm64": "0.25.0",
-        "@esbuild/netbsd-x64": "0.25.0",
-        "@esbuild/openbsd-arm64": "0.25.0",
-        "@esbuild/openbsd-x64": "0.25.0",
-        "@esbuild/sunos-x64": "0.25.0",
-        "@esbuild/win32-arm64": "0.25.0",
-        "@esbuild/win32-ia32": "0.25.0",
-        "@esbuild/win32-x64": "0.25.0"
         "@esbuild/aix-ppc64": "0.25.1",
         "@esbuild/android-arm": "0.25.1",
         "@esbuild/android-arm64": "0.25.1",
@@ -2262,9 +1961,6 @@
       }
     },
     "node_modules/eslint": {
-      "version": "9.21.0",
-      "resolved": "https://registry.npmjs.org/eslint/-/eslint-9.21.0.tgz",
-      "integrity": "sha512-KjeihdFqTPhOMXTt7StsDxriV4n66ueuF/jfPNC3j/lduHwr/ijDwJMsF+wyMJethgiKi5wniIE243vi07d3pg==",
       "version": "9.22.0",
       "resolved": "https://registry.npmjs.org/eslint/-/eslint-9.22.0.tgz",
       "integrity": "sha512-9V/QURhsRN40xuHXWjV64yvrzMjcz7ZyNoF2jJFmy9j/SLk0u1OLSZgXi28MrXjymnjEGSR80WCdab3RGMDveQ==",
@@ -2274,9 +1970,6 @@
         "@eslint-community/eslint-utils": "^4.2.0",
         "@eslint-community/regexpp": "^4.12.1",
         "@eslint/config-array": "^0.19.2",
-        "@eslint/core": "^0.12.0",
-        "@eslint/eslintrc": "^3.3.0",
-        "@eslint/js": "9.21.0",
         "@eslint/config-helpers": "^0.1.0",
         "@eslint/core": "^0.12.0",
         "@eslint/eslintrc": "^3.3.0",
@@ -2291,8 +1984,7 @@
         "chalk": "^4.0.0",
         "cross-spawn": "^7.0.6",
         "debug": "^4.3.2",
-        "escape-string-regexp": "^4.0.0", 
-        "eslint-scope": "^8.2.0",
+        "escape-string-regexp": "^4.0.0",
         "eslint-scope": "^8.3.0",
         "eslint-visitor-keys": "^4.2.0",
         "espree": "^10.3.0",
@@ -2330,9 +2022,6 @@
       }
     },
     "node_modules/eslint-plugin-react-hooks": {
-      "version": "5.1.0",
-      "resolved": "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.1.0.tgz",
-      "integrity": "sha512-mpJRtPgHN2tNAvZ35AMfqeB3Xqeo273QxrHJsbBEPWODRM4r0yB6jfoROqKEYrOn27UtRPpcpHc2UqyBSuUNTw==",
       "version": "5.2.0",
       "resolved": "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.2.0.tgz",
       "integrity": "sha512-+f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy/sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg==",
@@ -2356,9 +2045,6 @@
       }
     },
     "node_modules/eslint-scope": {
-      "version": "8.2.0",
-      "resolved": "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.2.0.tgz",
-      "integrity": "sha512-PHlWUfG6lvPc3yvP5A4PNyBL1W8fkDUccmI21JUu/+GKZBoH/W5u6usENXUrWFRsyoW5ACUjFGgAFQp5gUlb/A==",
       "version": "8.3.0",
       "resolved": "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.3.0.tgz",
       "integrity": "sha512-pUNxi75F8MJ/GdeKtVLSbYg4ZI34J6C0C7sbL4YOp2exGwen7ZsuBqKzUhXd0qMQ362yET3z+uPwKeg/0C2XCQ==",
@@ -2864,20 +2550,13 @@
       }
     },
     "node_modules/lightningcss": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.29.1.tgz",
-      "integrity": "sha512-FmGoeD4S05ewj+AkhTY+D+myDvXI6eL27FjHIjoyUkO/uw7WZD1fBVs0QxeYWa7E17CUHJaYX/RUGISCtcrG4Q==",
-      "dev": true,
-      "license": "MPL-2.0",
-      "dependencies": {
-        "detect-libc": "^1.0.3"
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.29.2.tgz",
       "integrity": "sha512-6b6gd/RUXKaw5keVdSEtqFVdzWnU5jMxTUjA2bVcMNPLwSQ08Sv/UodBVtETLCn7k4S1Ibxwh7k68IwLZPgKaA==",
       "dev": true,
       "license": "MPL-2.0",
       "dependencies": {
-        "detect-libc": "^2.0.3" 
+        "detect-libc": "^2.0.3"
       },
       "engines": {
         "node": ">= 12.0.0"
@@ -2887,22 +2566,6 @@
         "url": "https://opencollective.com/parcel"
       },
       "optionalDependencies": {
-        "lightningcss-darwin-arm64": "1.29.1",
-        "lightningcss-darwin-x64": "1.29.1",
-        "lightningcss-freebsd-x64": "1.29.1",
-        "lightningcss-linux-arm-gnueabihf": "1.29.1",
-        "lightningcss-linux-arm64-gnu": "1.29.1",
-        "lightningcss-linux-arm64-musl": "1.29.1",
-        "lightningcss-linux-x64-gnu": "1.29.1",
-        "lightningcss-linux-x64-musl": "1.29.1",
-        "lightningcss-win32-arm64-msvc": "1.29.1",
-        "lightningcss-win32-x64-msvc": "1.29.1"
-      }
-    },
-    "node_modules/lightningcss-darwin-arm64": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.29.1.tgz",
-      "integrity": "sha512-HtR5XJ5A0lvCqYAoSv2QdZZyoHNttBpa5EP9aNuzBQeKGfbyH5+UipLWvVzpP4Uml5ej4BYs5I9Lco9u1fECqw==",
         "lightningcss-darwin-arm64": "1.29.2",
         "lightningcss-darwin-x64": "1.29.2",
         "lightningcss-freebsd-x64": "1.29.2",
@@ -2937,9 +2600,6 @@
       }
     },
     "node_modules/lightningcss-darwin-x64": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.29.1.tgz",
-      "integrity": "sha512-k33G9IzKUpHy/J/3+9MCO4e+PzaFblsgBjSGlpAaFikeBFm8B/CkO3cKU9oI4g+fjS2KlkLM/Bza9K/aw8wsNA==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.29.2.tgz",
       "integrity": "sha512-j5qYxamyQw4kDXX5hnnCKMf3mLlHvG44f24Qyi2965/Ycz829MYqjrVg2H8BidybHBp9kom4D7DR5VqCKDXS0w==",
@@ -2961,9 +2621,6 @@
       }
     },
     "node_modules/lightningcss-freebsd-x64": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.29.1.tgz",
-      "integrity": "sha512-0SUW22fv/8kln2LnIdOCmSuXnxgxVC276W5KLTwoehiO0hxkacBxjHOL5EtHD8BAXg2BvuhsJPmVMasvby3LiQ==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.29.2.tgz",
       "integrity": "sha512-wDk7M2tM78Ii8ek9YjnY8MjV5f5JN2qNVO+/0BAGZRvXKtQrBC4/cn4ssQIpKIPP44YXw6gFdpUF+Ps+RGsCwg==",
@@ -2985,9 +2642,6 @@
       }
     },
     "node_modules/lightningcss-linux-arm-gnueabihf": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.29.1.tgz",
-      "integrity": "sha512-sD32pFvlR0kDlqsOZmYqH/68SqUMPNj+0pucGxToXZi4XZgZmqeX/NkxNKCPsswAXU3UeYgDSpGhu05eAufjDg==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.29.2.tgz",
       "integrity": "sha512-IRUrOrAF2Z+KExdExe3Rz7NSTuuJ2HvCGlMKoquK5pjvo2JY4Rybr+NrKnq0U0hZnx5AnGsuFHjGnNT14w26sg==",
@@ -3009,9 +2663,6 @@
       }
     },
     "node_modules/lightningcss-linux-arm64-gnu": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.29.1.tgz",
-      "integrity": "sha512-0+vClRIZ6mmJl/dxGuRsE197o1HDEeeRk6nzycSy2GofC2JsY4ifCRnvUWf/CUBQmlrvMzt6SMQNMSEu22csWQ==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.29.2.tgz",
       "integrity": "sha512-KKCpOlmhdjvUTX/mBuaKemp0oeDIBBLFiU5Fnqxh1/DZ4JPZi4evEH7TKoSBFOSOV3J7iEmmBaw/8dpiUvRKlQ==",
@@ -3033,9 +2684,6 @@
       }
     },
     "node_modules/lightningcss-linux-arm64-musl": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.29.1.tgz",
-      "integrity": "sha512-UKMFrG4rL/uHNgelBsDwJcBqVpzNJbzsKkbI3Ja5fg00sgQnHw/VrzUTEc4jhZ+AN2BvQYz/tkHu4vt1kLuJyw==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.29.2.tgz",
       "integrity": "sha512-Q64eM1bPlOOUgxFmoPUefqzY1yV3ctFPE6d/Vt7WzLW4rKTv7MyYNky+FWxRpLkNASTnKQUaiMJ87zNODIrrKQ==",
@@ -3057,9 +2705,6 @@
       }
     },
     "node_modules/lightningcss-linux-x64-gnu": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.1.tgz",
-      "integrity": "sha512-u1S+xdODy/eEtjADqirA774y3jLcm8RPtYztwReEXoZKdzgsHYPl0s5V52Tst+GKzqjebkULT86XMSxejzfISw==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz",
       "integrity": "sha512-0v6idDCPG6epLXtBH/RPkHvYx74CVziHo6TMYga8O2EiQApnUPZsbR9nFNrg2cgBzk1AYqEd95TlrsL7nYABQg==",
@@ -3081,9 +2726,6 @@
       }
     },
     "node_modules/lightningcss-linux-x64-musl": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.29.1.tgz",
-      "integrity": "sha512-L0Tx0DtaNUTzXv0lbGCLB/c/qEADanHbu4QdcNOXLIe1i8i22rZRpbT3gpWYsCh9aSL9zFujY/WmEXIatWvXbw==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.29.2.tgz",
       "integrity": "sha512-rMpz2yawkgGT8RULc5S4WiZopVMOFWjiItBT7aSfDX4NQav6M44rhn5hjtkKzB+wMTRlLLqxkeYEtQ3dd9696w==",
@@ -3105,9 +2747,6 @@
       }
     },
     "node_modules/lightningcss-win32-arm64-msvc": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.29.1.tgz",
-      "integrity": "sha512-QoOVnkIEFfbW4xPi+dpdft/zAKmgLgsRHfJalEPYuJDOWf7cLQzYg0DEh8/sn737FaeMJxHZRc1oBreiwZCjog==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.29.2.tgz",
       "integrity": "sha512-nL7zRW6evGQqYVu/bKGK+zShyz8OVzsCotFgc7judbt6wnB2KbiKKJwBE4SGoDBQ1O94RjW4asrCjQL4i8Fhbw==",
@@ -3129,9 +2768,6 @@
       }
     },
     "node_modules/lightningcss-win32-x64-msvc": {
-      "version": "1.29.1",
-      "resolved": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.29.1.tgz",
-      "integrity": "sha512-NygcbThNBe4JElP+olyTI/doBNGJvLs3bFCRPdvuCcxZCcCZ71B858IHpdm7L1btZex0FvCmM17FK98Y9MRy1Q==",
       "version": "1.29.2",
       "resolved": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.29.2.tgz",
       "integrity": "sha512-EdIUW3B2vLuHmv7urfzMI/h2fmlnOQBk1xlsDxkN1tCWKjNFjfLhGxYk8C8mzpSfr+A6jFFIi8fU6LbQGsRWjA==",
@@ -3235,9 +2871,6 @@
       "license": "MIT"
     },
     "node_modules/nanoid": {
-      "version": "3.3.8",
-      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.8.tgz",
-      "integrity": "sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==",
       "version": "3.3.10",
       "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.10.tgz",
       "integrity": "sha512-vSJJTG+t/dIKAUhUDw/dLdZ9s//5OxcHqLaDWWrW4Cdq7o6tdLIczUkMXt2MBNmk6sJRZBZRXVixs7URY1CmIg==",
@@ -3504,9 +3137,6 @@
       }
     },
     "node_modules/rollup": {
-      "version": "4.34.8",
-      "resolved": "https://registry.npmjs.org/rollup/-/rollup-4.34.8.tgz",
-      "integrity": "sha512-489gTVMzAYdiZHFVA/ig/iYFllCcWFHMvUHI1rpFmkoUtRlQxqh6/yiNqnYibjMZ2b/+FUQwldG+aLsEt6bglQ==",
       "version": "4.36.0",
       "resolved": "https://registry.npmjs.org/rollup/-/rollup-4.36.0.tgz",
       "integrity": "sha512-zwATAXNQxUcd40zgtQG0ZafcRK4g004WtEl7kbuhTWPvf07PsfohXl39jVUvPF7jvNAIkKPQ2XrsDlWuxBd++Q==",
@@ -3523,25 +3153,6 @@
         "npm": ">=8.0.0"
       },
       "optionalDependencies": {
-        "@rollup/rollup-android-arm-eabi": "4.34.8",
-        "@rollup/rollup-android-arm64": "4.34.8",
-        "@rollup/rollup-darwin-arm64": "4.34.8",
-        "@rollup/rollup-darwin-x64": "4.34.8",
-        "@rollup/rollup-freebsd-arm64": "4.34.8",
-        "@rollup/rollup-freebsd-x64": "4.34.8",
-        "@rollup/rollup-linux-arm-gnueabihf": "4.34.8",
-        "@rollup/rollup-linux-arm-musleabihf": "4.34.8",
-        "@rollup/rollup-linux-arm64-gnu": "4.34.8",
-        "@rollup/rollup-linux-arm64-musl": "4.34.8",
-        "@rollup/rollup-linux-loongarch64-gnu": "4.34.8",
-        "@rollup/rollup-linux-powerpc64le-gnu": "4.34.8",
-        "@rollup/rollup-linux-riscv64-gnu": "4.34.8",
-        "@rollup/rollup-linux-s390x-gnu": "4.34.8",
-        "@rollup/rollup-linux-x64-gnu": "4.34.8",
-        "@rollup/rollup-linux-x64-musl": "4.34.8",
-        "@rollup/rollup-win32-arm64-msvc": "4.34.8",
-        "@rollup/rollup-win32-ia32-msvc": "4.34.8",
-        "@rollup/rollup-win32-x64-msvc": "4.34.8",
         "@rollup/rollup-android-arm-eabi": "4.36.0",
         "@rollup/rollup-android-arm64": "4.36.0",
         "@rollup/rollup-darwin-arm64": "4.36.0",
@@ -3636,9 +3247,6 @@
       }
     },
     "node_modules/tailwindcss": {
-      "version": "4.0.9",
-      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.0.9.tgz",
-      "integrity": "sha512-12laZu+fv1ONDRoNR9ipTOpUD7RN9essRVkX36sjxuRUInpN7hIiHN4lBd/SIFjbISvnXzp8h/hXzmU8SQQYhw==",
       "version": "4.0.14",
       "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.0.14.tgz",
       "integrity": "sha512-92YT2dpt671tFiHH/e1ok9D987N9fHD5VWoly1CdPD/Cd1HMglvZwP3nx2yTj2lbXDAHt8QssZkxTLCCTNL+xw==",
@@ -3716,9 +3324,6 @@
       }
     },
     "node_modules/vite": {
-      "version": "6.2.0",
-      "resolved": "https://registry.npmjs.org/vite/-/vite-6.2.0.tgz",
-      "integrity": "sha512-7dPxoo+WsT/64rDcwoOjk76XHj+TqNTIvHKcuMQ1k4/SeHDaQt5GFAeLYzrimZrMpn/O6DtdI03WUjdxuPM0oQ==",
       "version": "6.2.2",
       "resolved": "https://registry.npmjs.org/vite/-/vite-6.2.2.tgz",
       "integrity": "sha512-yW7PeMM+LkDzc7CgJuRLMW2Jz0FxMOsVJ8Lv3gpgW9WLcb9cTW+121UEr1hvmfR7w3SegR5ItvYyzVz1vxNJgQ==",
@@ -3831,3 +3436,1546 @@
     }
   }
 }
+
+//////////////////////////
+./package.json
+//////////////////////////
+
+{
+  "name": "inventario-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "lucide-react": "^0.482.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@tailwindcss/postcss": "^4.0.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "vite": "^6.2.0"
+  }
+}
+
+//////////////////////////
+./postcss.config.js
+//////////////////////////
+
+import tailwindcss from "@tailwindcss/postcss";
+import autoprefixer from "autoprefixer";
+
+export default {
+  plugins: [tailwindcss, autoprefixer],
+};
+
+//////////////////////////
+./src/App.jsx
+//////////////////////////
+
+import { useEffect, useState } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import Products from "./pages/Products";
+import Sales from "./pages/Sales";
+import Users from "./pages/Users";
+import Reports from "./pages/Reports";
+import NewSale from "./pages/NewSale";
+
+const PrivateRoute = ({ element }) => {
+    const [user, setUser] = useState(null);
+
+    useEffect(() => {
+        const storedUser = localStorage.getItem("user");
+        if (storedUser) {
+            setUser(JSON.parse(storedUser));
+        }
+    }, []);
+
+    return user ? element : <Navigate to="/" />;
+};
+
+function App() {
+    return (
+        <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/dashboard" element={<PrivateRoute element={<Dashboard />} />} />
+            <Route path="/products" element={<PrivateRoute element={<Products />} />} />
+            <Route path="/sales" element={<PrivateRoute element={<Sales />} />} />
+            <Route path="/users" element={<PrivateRoute element={<Users />} />} />
+            <Route path="/reports" element={<PrivateRoute element={<Reports />} />} />
+            <Route path="/new-sale" element={<PrivateRoute element={<NewSale />} />} />
+        </Routes>
+    );
+}
+
+export default App;
+
+//////////////////////////
+./src/pages/Sales.jsx
+//////////////////////////
+
+function Sales() {
+  return (
+    <div>
+      <h2>Ventas</h2>
+      <p>Aquí se gestionan las ventas.</p>
+    </div>
+  );
+}
+
+export default Sales;
+
+//////////////////////////
+./src/pages/DashboardHome.jsx
+//////////////////////////
+
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import { API_URL } from "../config";
+import "./DashboardHome.css";
+
+const DashboardHome = () => {
+  const [stats, setStats] = useState({
+    totalProducts: 0,
+    totalUsers: 0,
+    totalIncome: 0,
+    totalSalesCount: 0,
+  });
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Obtener productos y contar
+        const prodRes = await axios.get(`${API_URL}/products`, {
+          headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+        });
+        const totalProducts = prodRes.data.length;
+
+        // Obtener usuarios y contar
+        const userRes = await axios.get(`${API_URL}/users`, {
+          headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+        });
+        const totalUsers = userRes.data.length;
+
+        // Obtener estadísticas de ventas
+        const saleRes = await axios.get(`${API_URL}/sales/stats`, {
+          headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+        });
+        const { totalSales, totalIncome } = saleRes.data;
+
+        setStats({
+          totalProducts,
+          totalUsers,
+          totalIncome,
+          totalSalesCount: totalSales,
+        });
+      } catch (error) {
+        console.error("Error al obtener datos del DashboardHome:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return <p>Cargando datos...</p>;
+  }
+
+  return (
+    <section className="dashboard-summary">
+      <div className="summary-card">
+        <h3>📦 Productos</h3>
+        <p>{stats.totalProducts} registrados</p>
+      </div>
+      <div className="summary-card">
+        <h3>👥 Usuarios</h3>
+        <p>{stats.totalUsers} activos</p>
+      </div>
+      <div className="summary-card">
+        <h3>📊 Ventas</h3>
+        <p>${stats.totalIncome.toLocaleString()} este mes</p>
+      </div>
+      <div className="summary-card">
+        <h3>📈 Reportes</h3>
+        <p>{stats.totalSalesCount} nuevos</p>
+      </div>
+    </section>
+  );
+};
+
+export default DashboardHome;
+
+//////////////////////////
+./src/pages/Products.css
+//////////////////////////
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product-form input,
+.product-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+//////////////////////////
+./src/pages/NewSale.jsx
+//////////////////////////
+
+import { useState, useEffect } from "react";
+import api from "../api/axiosInstance";
+import { API_URL } from "../config";
+
+const NewSale = () => {
+  const [products, setProducts] = useState([]);
+  const [selectedProduct, setSelectedProduct] = useState("");
+  const [quantity, setQuantity] = useState(1);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    // Cargar usuario desde localStorage
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+    }
+
+    // Obtener productos de la base de datos
+    const fetchProducts = async () => {
+      try {
+        const response = await api.get("/products");
+        setProducts(response.data);
+      } catch (error) {
+        console.error("Error al obtener los productos", error);
+      }
+    };
+    fetchProducts();
+  }, []);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const saleData = {
+        productId: selectedProduct,
+        quantity: parseInt(quantity, 10), // Asegurar que quantity sea número
+        userId: user?.id, // Enviar ID del usuario si es necesario
+      };
+
+      const response = await api.post("/sales", saleData);
+      setSuccessMessage("Venta registrada con éxito.");
+      setErrorMessage("");
+      
+      // Limpiar campos después de registrar la venta
+      setSelectedProduct("");
+      setQuantity(1);
+    } catch (error) {
+      console.error("Error al registrar la venta:", error);
+      setErrorMessage("Error al registrar la venta.");
+      setSuccessMessage("");
+    }
+  };
+
+  return (
+    <div>
+      <h2>Registrar Nueva Venta</h2>
+      {successMessage && <div className="success-message">{successMessage}</div>}
+      {errorMessage && <div className="error-message">{errorMessage}</div>}
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label>Producto</label>
+          <select
+            value={selectedProduct}
+            onChange={(e) => setSelectedProduct(e.target.value)}
+            required
+          >
+            <option value="">Selecciona un producto</option>
+            {products.map((product) => (
+              <option key={product._id} value={product._id}>
+                {product.name} - ${product.price}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label>Cantidad</label>
+          <input
+            type="number"
+            value={quantity}
+            onChange={(e) => setQuantity(parseInt(e.target.value, 10))}
+            min="1"
+            required
+          />
+        </div>
+        <button type="submit">Registrar Venta</button>
+      </form>
+    </div>
+  );
+};
+
+export default NewSale;
+
+//////////////////////////
+./src/pages/AddProduct.jsx
+//////////////////////////
+
+import { useState } from "react";
+import api from "../api/axiosInstance";
+
+function AddProduct() {
+  const [name, setName] = useState("");
+  const [price, setPrice] = useState("");
+  const [stock, setStock] = useState("");
+  const [category, setCategory] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await api.post("/products", { name, price, stock, category });
+      alert("Producto agregado");
+      setName(""); setPrice(""); setStock(""); setCategory("");
+    } catch (error) {
+      console.error("Error agregando producto:", error);
+    }
+  };
+
+  return (
+    <div>
+      <h2>Agregar Producto</h2>
+      <form onSubmit={handleSubmit}>
+        <input type="text" placeholder="Nombre" value={name} onChange={(e) => setName(e.target.value)} required />
+        <input type="number" placeholder="Precio" value={price} onChange={(e) => setPrice(e.target.value)} required />
+        <input type="number" placeholder="Stock" value={stock} onChange={(e) => setStock(e.target.value)} required />
+        <input type="text" placeholder="Categoría" value={category} onChange={(e) => setCategory(e.target.value)} required />
+        <button type="submit">Agregar</button>
+      </form>
+    </div>
+  );
+}
+
+export default AddProduct;
+
+//////////////////////////
+./src/pages/Users.jsx
+//////////////////////////
+
+const Users = () => {
+    return (
+        <div>
+            <h1>Usuarios</h1>
+            <p>Aquí iría la lista de usuarios.</p>
+        </div>
+    );
+};
+
+export default Users;
+
+//////////////////////////
+./src/pages/Products.jsx
+//////////////////////////
+
+import { useEffect, useState } from "react";
+import api from "../api/axiosInstance"; 
+import "./Products.css";
+
+const categories = ["Electrónica", "Ropa", "Hogar", "Alimentos", "Servicios", "Otros"];
+
+const Products = () => {
+    const [products, setProducts] = useState([]);
+    const [sales, setSales] = useState([]);
+    const [newProduct, setNewProduct] = useState({ 
+        name: "", 
+        price: "", 
+        stock: "", 
+        category: categories[0]
+    });
+    const [editingProduct, setEditingProduct] = useState(null);
+
+    const fetchProducts = () => {
+        api.get("/products").then(res => setProducts(res.data));
+    };
+
+    const fetchSales = () => {
+        api.get("/sales").then(res => setSales(res.data));
+    };
+
+    useEffect(() => {
+        fetchProducts();
+        fetchSales();
+    }, []);
+
+    const handleDelete = (id) => {
+        api.delete(`/products/${id}`).then(() => {
+            fetchProducts();
+        });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (editingProduct) {
+            api.put(`/products/${editingProduct._id}`, newProduct).then(() => {
+                setEditingProduct(null);
+                fetchProducts();
+            });
+        } else {
+            api.post("/products", newProduct).then(() => {
+                fetchProducts();
+            });
+        }
+
+        setNewProduct({ name: "", price: "", stock: "", category: categories[0] });
+    };
+
+    const handleEdit = (product) => {
+        setNewProduct({
+            name: product.name || "",
+            price: product.price || "",
+            stock: product.stock || "",
+            category: product.category || categories[0]
+        });
+        setEditingProduct(product);
+    };
+
+    return (
+        <div className="container">
+            <h1>Lista de Productos</h1>
+            <button onClick={fetchProducts} className="refresh-btn">Refrescar</button>
+            <form onSubmit={handleSubmit} className="product-form">
+                <input 
+                    type="text" 
+                    placeholder="Nombre" 
+                    value={newProduct.name} 
+                    onChange={e => setNewProduct({ ...newProduct, name: e.target.value })} 
+                    required 
+                />
+                <input 
+                    type="number" 
+                    placeholder="Precio" 
+                    value={newProduct.price} 
+                    onChange={e => setNewProduct({ ...newProduct, price: e.target.value })} 
+                    required 
+                />
+                <input 
+                    type="number" 
+                    placeholder="Stock" 
+                    value={newProduct.stock} 
+                    onChange={e => setNewProduct({ ...newProduct, stock: e.target.value })} 
+                    required 
+                />
+                <select 
+                    value={newProduct.category}
+                    onChange={e => setNewProduct({ ...newProduct, category: e.target.value })}        
+                    required
+                >
+                    {categories.map((cat, index) => (
+                        <option key={index} value={cat}>{cat}</option>
+                    ))}
+                </select>
+                <button type="submit">{editingProduct ? "Actualizar" : "Agregar"}</button>
+            </form>
+
+            <ul className="product-list">
+                {products.map(product => (
+                    <li key={product._id} className="product-item">
+                        <span>{product.name} - ${product.price} - Stock: {product.stock} - Categoría: {product.category}</span>
+                        <div>
+                            <button onClick={() => handleEdit(product)} className="edit-btn">Editar</button>
+                            <button onClick={() => handleDelete(product._id)} className="delete-btn">Eliminar</button>
+                        </div>
+                    </li>
+                ))}
+            </ul>
+
+            <h2>Ventas Realizadas</h2>
+            <ul className="sales-list">
+                {sales.map(sale => (
+                    <li key={sale._id} className="sale-item">
+                        <span>{sale.productName} - Cantidad: {sale.quantity} - Total: ${sale.totalPrice}</span>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
+};
+
+export default Products;
+
+//////////////////////////
+./src/pages/Login.css
+//////////////////////////
+
+/* 🔹 Contenedor principal */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  flex-direction: column;
+  position: relative;
+}
+
+/* 🔹 Caja de Login */
+.login-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+  position: relative;
+  z-index: 2;
+}
+
+/* 🔹 Texto */
+h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* 🔹 Inputs */
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* 🔹 Icono de ver contraseña */
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* 🔹 Botón */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #6e8efb;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #5a7bf7;
+}
+
+/* 🔹 Personaje animado */
+.character {
+  position: absolute;
+  top: 30px;
+  width: 120px;
+  height: 120px;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+/* 🔹 Ojos */
+.eye {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.eye.left {
+  left: 30px;
+}
+
+.eye.right {
+  right: 30px;
+}
+
+/* 🔹 Cubrir los ojos */
+.cover-eyes {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  width: 60px;
+  height: 20px;
+  background: white;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Mostrar los ojos cubiertos */
+.cover-eyes.show {
+  opacity: 1;
+}
+
+//////////////////////////
+./src/pages/Dashboard.css
+//////////////////////////
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #34495e;
+  --accent-color: #27ae60;
+  --error-color: #e74c3c;
+  --hover-accent: #219150;
+  --text-color: #333;
+  --background-color: #ecf0f1;
+  --white: #fff;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+  --transition-duration: 0.3s;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 12px;
+}
+
+.sidebar nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: var(--white);
+  padding: 12px;
+  border-radius: var(--border-radius);
+  transition: background var(--transition-duration);
+}
+
+.sidebar nav ul li a:hover,
+.sidebar nav ul li a.active {
+  background: var(--secondary-color);
+}
+
+.logout-btn {
+  background: var(--error-color);
+  color: var(--white);
+  border: none;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background var(--transition-duration);
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  padding: 15px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info span {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.dashboard-stats {
+  background: var(--white);
+  padding: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.dashboard-stats div {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+  flex: 1;
+}
+
+.dashboard-stats button {
+  background: var(--accent-color);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background var(--transition-duration);
+}
+
+.dashboard-stats button:hover {
+  background: var(--hover-accent);
+}
+
+.dashboard-content {
+  /* Ajusta según necesidad */
+}
+
+//////////////////////////
+./src/pages/Reports.css
+//////////////////////////
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.report-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.report-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.report-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  text-align: center;
+}
+
+.report-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.report-card p {
+  font-size: 20px;
+  margin: 10px 0 0;
+}
+
+.sales-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sales-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.sales-item span {
+  font-size: 16px;
+}
+
+.view-details-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-details-btn:hover {
+  background-color: #218838;
+}
+
+.sales-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.view-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+//////////////////////////
+./src/pages/DashboardHome.css
+//////////////////////////
+
+:root {
+  --card-bg: #fff;
+  --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --card-radius: 8px;
+  --primary-text: #2c3e50;
+  --secondary-text: #16a085;
+}
+
+.dashboard-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+}
+
+.summary-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--primary-text);
+}
+
+.summary-card p {
+  font-size: 24px;
+  color: var(--secondary-text);
+}
+
+//////////////////////////
+./src/pages/Reports.jsx
+//////////////////////////
+
+import axios from "axios";
+import { useState, useEffect } from "react";
+import { API_URL } from "../config"; // Importamos la configuración
+
+const Reports = () => {
+    const [sales, setSales] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    // Obtener las ventas desde el backend
+    const fetchSales = async () => {
+        try {
+            const res = await axios.get(`${API_URL}/sales`, {
+                headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
+            });
+            setSales(res.data);
+        } catch (error) {
+            console.error("Error al obtener las ventas", error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    useEffect(() => {
+        fetchSales();
+    }, []);
+
+    return (
+        <div className="reports-container">
+            <h2>📊 Reportes de Ventas</h2>
+            {loading ? (
+                <p>Cargando ventas...</p>
+            ) : (
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID Venta</th>
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                            <th>Usuario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {sales.map((sale) => (
+                            <tr key={sale._id}>
+                                <td>{sale._id}</td>
+                                <td>{sale.product.name}</td>
+                                <td>{sale.quantity}</td>
+                                <td>${sale.total}</td>
+                                <td>{sale.user.name}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            )}
+        </div>
+    );
+};
+
+export default Reports;
+
+//////////////////////////
+./src/pages/Dashboard.jsx
+//////////////////////////
+
+import { useState, useEffect } from "react";
+import { NavLink, useNavigate, Outlet } from "react-router-dom";
+import api from "../api/axiosInstance";
+import { API_URL } from "../config";
+import "./Dashboard.css";
+import DashboardHome from "./DashboardHome";
+
+const Dashboard = () => {
+    const navigate = useNavigate();
+    const [user, setUser] = useState(null);
+    const [stats, setStats] = useState({
+        totalSales: 0,
+        totalIncome: 0,
+        totalProductsSold: 0,
+    });
+    const [loading, setLoading] = useState(true);
+
+    // Cargar usuario desde localStorage al montar el componente
+    useEffect(() => {
+        const storedUser = localStorage.getItem("user");
+        if (storedUser) {
+            setUser(JSON.parse(storedUser));
+        } else {
+            navigate("/"); // Redirigir si no hay usuario
+        }
+    }, [navigate]);
+
+    const handleLogout = () => {
+        localStorage.removeItem("token");
+        localStorage.removeItem("user");
+        navigate("/");
+    };
+
+    const fetchStats = async () => {
+        setLoading(true);
+        try {
+            const res = await api.get(`${API_URL}/sales/stats`, {
+                headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+            });
+            console.log("Estadísticas obtenidas:", res.data);
+            setStats(res.data);
+        } catch (error) {
+            console.error("Error al obtener estadísticas", error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    useEffect(() => {
+        fetchStats();
+        const intervalId = setInterval(fetchStats, 60000);
+        return () => clearInterval(intervalId);
+    }, []);
+
+    return (
+        <div className="dashboard-container">
+            <aside className="sidebar">
+                <h2>📊 Mi Panel</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            <NavLink to="/dashboard">🏠 Inicio</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/products">📦 Productos</NavLink>
+                        </li>
+                        {user?.role === "admin" && (
+                            <>
+                                <li>
+                                    <NavLink to="/users">👥 Usuarios</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to="/new-sale">💳 Nueva Venta</NavLink>
+                                </li>
+                            </>
+                        )}
+                        <li>
+                            <NavLink to="/reports">📊 Reportes</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/sales">💸 Ventas Realizadas</NavLink>
+                        </li>
+                    </ul>
+                </nav>
+                <button className="logout-btn" onClick={handleLogout}>
+                    Cerrar sesión
+                </button>
+            </aside>
+
+            <main className="content">
+                <header className="dashboard-header">
+                    <h1>Bienvenido al Dashboard</h1>
+                    <div className="user-info">
+                        <span>👤 {user?.name}</span>
+                        <button className="logout-btn" onClick={handleLogout}>
+                            Cerrar sesión
+                        </button>
+                    </div>
+                </header>
+
+                <section className="dashboard-stats">
+                    <div>Total Ventas: {loading ? "Cargando..." : stats.totalSales}</div>
+                    <div>Total Ingresos: ${loading ? "Cargando..." : stats.totalIncome}</div>
+                    <div>Total Productos Vendidos: {loading ? "Cargando..." : stats.totalProductsSold}</div>
+                    <button onClick={fetchStats}>Actualizar Estadísticas</button>
+                </section>
+
+                <DashboardHome />
+
+                <section className="dashboard-content">
+                    <Outlet />
+                </section>
+            </main>
+        </div>
+    );
+};
+
+export default Dashboard;
+
+//////////////////////////
+./src/pages/Login.jsx
+//////////////////////////
+
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import api from "../api/axiosInstance";
+import "./Login.css";
+import { Eye, EyeOff } from "lucide-react";
+
+const Login = () => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [showPassword, setShowPassword] = useState(false);
+    const [eyePosition, setEyePosition] = useState({ x: "0px", y: "0px" });
+    const [coverEyes, setCoverEyes] = useState(false);
+    const navigate = useNavigate();
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const res = await api.post("/auth/login", { email, password });
+            localStorage.setItem("token", res.data.token);
+            localStorage.setItem("user", JSON.stringify(res.data.user));
+            navigate("/dashboard");
+        } catch (err) {
+            alert("Credenciales incorrectas");
+        }
+    };
+
+    const handleFocus = (field) => {
+        if (field === "email") {
+            setEyePosition({ x: "-10px", y: "-5px" });
+            setCoverEyes(false);
+        } else if (field === "password") {
+            setEyePosition({ x: "10px", y: "5px" });
+            setCoverEyes(true);
+        }
+    };
+
+    const handleTogglePassword = () => {
+        setShowPassword(!showPassword);
+        setCoverEyes(!showPassword);
+    };
+
+    return (
+        <div className="login-container">
+            {/* 🟢 Personaje con Ojos */}
+            <div className="character">
+                <div className="eye left" style={{ transform: `translate(${eyePosition.x}, ${eyePosition.y})` }}></div>
+                <div className="eye right" style={{ transform: `translate(${eyePosition.x}, ${eyePosition.y})` }}></div>
+                {coverEyes && <div className="cover-eyes"></div>}
+            </div>
+
+            {/* 🟢 Formulario */}
+            <div className="login-box">
+                <h2>Iniciar Sesión</h2>
+                <form onSubmit={handleSubmit}>
+                    <input
+                        type="email"
+                        placeholder="Correo"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        onFocus={() => handleFocus("email")}
+                        required
+                    />
+                    <div className="input-group">
+                        <input
+                            type={showPassword ? "text" : "password"}
+                            placeholder="Contraseña"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            onFocus={() => handleFocus("password")}
+                            required
+                        />
+                        <span className="toggle-password" onClick={handleTogglePassword}>
+                            {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+                        </span>
+                    </div>
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+    );
+};
+
+export default Login;
+
+//////////////////////////
+./src/context/AuthContext.jsx
+//////////////////////////
+
+import { createContext, useState, useEffect } from "react";
+import axios from "axios";
+import { API_URL } from "../config";
+
+export const AuthContext = createContext();
+
+export const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      axios
+        .get(`${API_URL}/auth/me`, {
+          headers: { Authorization: `Bearer ${token}` },
+        })
+        .then((res) => {
+          setUser(res.data);
+          setLoading(false);
+        })
+        .catch(() => {
+          localStorage.removeItem("token");
+          setLoading(false);
+        });
+    } else {
+      setLoading(false);
+    }
+  }, []);
+
+  const login = async (email, password) => {
+    const res = await axios.post(`${API_URL}/auth/login`, { email, password });
+    localStorage.setItem("token", res.data.token);
+    setUser(res.data.user);
+  };
+
+  const logout = () => {
+    localStorage.removeItem("token");
+    setUser(null);
+  };
+
+  return (
+    <AuthContext.Provider value={{ user, login, logout, loading }}>
+      {children}
+    </AuthContext.Provider>
+  );
+};
+
+//////////////////////////
+./src/App.css
+//////////////////////////
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+//////////////////////////
+./src/components/PrivateRoute.jsx
+//////////////////////////
+
+import { Navigate } from "react-router-dom";
+import { useState, useEffect } from "react";
+
+const PrivateRoute = ({ children }) => {
+    const [user, setUser] = useState(null);
+
+    useEffect(() => {
+        const storedUser = localStorage.getItem("user");
+        if (storedUser) {
+            setUser(JSON.parse(storedUser));
+        }
+    }, []);
+
+    return user ? children : <Navigate to="/" />;
+};
+
+export default PrivateRoute;
+
+//////////////////////////
+./src/main.jsx
+//////////////////////////
+
+import React from "react";
+import ReactDOM from "react-dom/client"; 
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import { AuthProvider } from "./context/AuthContext";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
+    <AuthProvider>
+      <App />
+    </AuthProvider>
+  </BrowserRouter>
+);
+
+//////////////////////////
+./src/index.css
+//////////////////////////
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+//////////////////////////
+./src/config.js
+//////////////////////////
+
+export const API_URL = "http://18.227.102.242:5000/api";
+export const FRONTEND_URL = "http://localhost:3000"; // o la URL de producción si estuviera desplegado
+
+//////////////////////////
+./src/api/axiosInstance.jsx
+//////////////////////////
+
+import axios from "axios";
+import { API_URL } from "../config";
+
+const api = axios.create({
+  baseURL: API_URL,
+  headers: { "Content-Type": "application/json" },
+});
+
+// Agregar el token en cada petición
+api.interceptors.request.use(
+  (config) => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+    return config;
+  },
+  (error) => Promise.reject(error)
+);
+
+export default api;
+
+//////////////////////////
+./tailwind.config.js
+//////////////////////////
+
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+//////////////////////////
+./vite.config.js
+//////////////////////////
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    proxy: {
+      '/api': 'http://18.227.102.242:5000'
+    }
+  }
+})
+
+//////////////////////////
+./eslint.config.js
+//////////////////////////
+
+import js from '@eslint/js'
+import globals from 'globals'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
+
+export default [
+  { ignores: ['dist'] },
+  {
+    files: ['**/*.{js,jsx}'],
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: globals.browser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        ecmaFeatures: { jsx: true },
+        sourceType: 'module',
+      },
+    },
+    plugins: {
+      'react-hooks': reactHooks,
+      'react-refresh': reactRefresh,
+    },
+    rules: {
+      ...js.configs.recommended.rules,
+      ...reactHooks.configs.recommended.rules,
+      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
+      ],
+    },
+  },
+]
